@@ -95,3 +95,16 @@ ogr2ogr \
   bus_routes \
   -nln bus_routes
 ```
+
+Append stops from temps to the main gpkg.
+
+```shell
+ogr2ogr \
+  -f GPKG \
+  -update \
+  -append \
+  bali_map.gpkg \
+  temps/k1_15412634.gpkg \
+  bus_stops \
+  -nln bus_stops
+```
