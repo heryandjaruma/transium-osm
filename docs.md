@@ -91,7 +91,7 @@ ogr2ogr \
   -update \
   -append \
   bali_map.gpkg \
-  temps/k1_15412634.gpkg \
+  temps/ts1_15425938.gpkg \
   bus_routes \
   -nln bus_routes
 ```
