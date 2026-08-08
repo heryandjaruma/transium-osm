@@ -1,3 +1,6 @@
 .DS_Store
 bali.osm.pbf
 nusa-tenggara-260806.osm.pbf
+
+# generate map tiles
+build/

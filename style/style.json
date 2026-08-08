@@ -1,0 +1,71 @@
+{
+  "version": 8,
+  "name": "Bali Transit",
+
+  "sources": {
+    "basemap": {
+      "type": "vector",
+      "url": "pmtiles://asset://bali-basemap.pmtiles"
+    },
+
+    "transit": {
+      "type": "vector",
+      "url": "pmtiles://asset://bali-transit.pmtiles"
+    }
+  },
+
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": {
+        "background-color": "#dce9ed"
+      }
+    },
+
+    {
+      "id": "bali-land",
+      "type": "fill",
+      "source": "basemap",
+      "source-layer": "land",
+      "paint": {
+        "fill-color": "#f5f3ed"
+      }
+    },
+
+    {
+      "id": "roads",
+      "type": "line",
+      "source": "basemap",
+      "source-layer": "roads",
+      "paint": {
+        "line-color": "#d0d0d0",
+        "line-width": 1.5
+      }
+    },
+
+    {
+      "id": "bus-routes",
+      "type": "line",
+      "source": "transit",
+      "source-layer": "bus_routes",
+      "paint": {
+        "line-color": "#2563eb",
+        "line-width": 4
+      }
+    },
+
+    {
+      "id": "bus-stops",
+      "type": "circle",
+      "source": "transit",
+      "source-layer": "bus_stops",
+      "paint": {
+        "circle-radius": 5,
+        "circle-color": "#2563eb",
+        "circle-stroke-color": "#ffffff",
+        "circle-stroke-width": 2
+      }
+    }
+  ]
+}

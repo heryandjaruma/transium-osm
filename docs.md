@@ -109,9 +109,86 @@ ogr2ogr \
   -nln bus_stops
 ```
 
+### ogr2ogr for Converting MapTiles
+
+#### For Land
+
+```shell
+ogr2ogr \
+  -f GeoJSON \
+  -t_srs EPSG:4326 \
+  build/geojson/land.geojson \
+  bali_map.gpkg \
+  land
+```
+
+#### For Roads
+
+```shell
+ogr2ogr \
+  -f GeoJSON \
+  -t_srs EPSG:4326 \
+  build/geojson/roads.geojson \
+  bali_map.gpkg \
+  roads
+```
+
+#### For Routes
+
+```shell
+ogr2ogr \
+  -f GeoJSON \
+  -t_srs EPSG:4326 \
+  build/geojson/bus_routes.geojson \
+  bali_map.gpkg \
+  bus_routes
+```
+
+#### For Stops
+
+```shell
+ogr2ogr \
+  -f GeoJSON \
+  -t_srs EPSG:4326 \
+  build/geojson/bus_stops.geojson \
+  bali_map.gpkg \
+  bus_stops
+```
+
 
 ### Filter For Specific Route
 
 ```sql
 "route_ref" LIKE '%K1B%'
 ```
+
+
+# TIPPECANOE
+
+## Generate BASEMAP Tiles
+
+```shell
+tippecanoe \
+  -o build/tiles/bali-basemap.pmtiles \
+  -zg \
+  --force \
+  --drop-densest-as-needed \
+  -L land:build/geojson/land.geojson \
+  -L roads:build/geojson/roads.geojson
+```
+
+
+## Generate TRANSIT PMTiles
+
+```shell
+tippecanoe \
+  -o build/tiles/bali-transit.pmtiles \
+  -zg \
+  --force \
+  -r1 \
+  -L bus_routes:build/geojson/bus_routes.geojson \
+  -L bus_stops:build/geojson/bus_stops.geojson
+```
+
+-r1 tells it to retain all points where they fit.
+
