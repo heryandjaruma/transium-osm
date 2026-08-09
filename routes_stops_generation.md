@@ -46,8 +46,11 @@ Ideal workflow for data from OSM is to run `clean_bus_stops.py` first before
 
 Route is defined by its Transit Name Sorting. Then in filename, starting point is its own direction.
 
+## TS
 0 GOR Ngurah Rai Dalam
 1 Garuda Wisnu Kencana
+
+## K5B
 
 0 Politeknik Negeri Bali
 1 Sentral Parkir Kuta
