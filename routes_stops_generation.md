@@ -1,3 +1,8 @@
+# Workflow
+
+Ideal workflow for data from OSM is to run `clean_bus_stops.py` first before
+`repair_bus_stops.py` to connect disconnected segments.
+
 # Route Fields
 
 - fid
@@ -43,3 +48,6 @@ Route is defined by its Transit Name Sorting. Then in filename, starting point i
 
 0 GOR Ngurah Rai Dalam
 1 Garuda Wisnu Kencana
+
+0 Politeknik Negeri Bali
+1 Sentral Parkir Kuta

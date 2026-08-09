@@ -5,3 +5,5 @@ nusa-tenggara-260806.osm.pbf
 # SQL temps
 *.gpkg-shm
 *.gpkg-wal
+
+*.pyc
