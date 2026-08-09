@@ -108,3 +108,10 @@ ogr2ogr \
   bus_stops \
   -nln bus_stops
 ```
+
+
+### Filter For Specific Route
+
+```sql
+"route_ref" LIKE '%K1B%'
+```

@@ -6,8 +6,8 @@ Ideal workflow for data from OSM is to run `clean_bus_stops.py` first before
 # Route Fields
 
 - fid
-- route_id          : permanent unique id
-- service_id        : identifies both direction as a service
+- route_id          : permanent unique id e.g. sarbagita_gwk_gor
+- service_id        : identifies both direction as a service e.g. sarbagita
 - direction_id      : 0 / 1
 - type              : route
 - to
