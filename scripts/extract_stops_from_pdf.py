@@ -286,6 +286,13 @@ def name_similarity(a, b):
     b_nums = {t for t in nb if t.isdigit()}
     if a_nums and b_nums and a_nums.isdisjoint(b_nums):
         sim *= 0.3
+    elif a_nums and not b_nums:
+        # The target names a specific numbered stop but the candidate is an
+        # unnumbered, broader-area label (e.g. "Mumbul Utara" vs "Mumbul
+        # Utara 3") - plausibly just the general vicinity, not necessarily
+        # THIS specific stop, so it shouldn't outrank a same-distance
+        # candidate that actually carries the right number.
+        sim *= 0.5
 
     return sim
 
