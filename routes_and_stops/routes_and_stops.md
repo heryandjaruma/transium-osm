@@ -301,6 +301,94 @@
 34. Terminal Ubung
 
 
+# K5B (Sentral Parkir Kuta - Politeknik Negeri Bali)
+
+## Sentral Parkir Kuta
+0. Sentral Parkir Kuta
+1. Sentral Parkir Kuta Luar (Timur)
+2. Raya Kuta 1 Raya Kuta 2
+3. Camat Kuta
+4. Tuban 1
+5. Tuban 2
+6. Murni Teguh
+7. Tuban 3
+8. Tuban 4
+9. Kelan
+10. Bypass Ngurah Rai 3
+11. Jimbaran 1
+12. Jimbaran 2
+13. Simpang Unud
+14. RS Unud
+15. Fakultas Pertanian Unud
+16. Fakultas Teknik Unud
+17. Rektorat Unud
+18. Fakultas MIPA Unud
+19. Fakultas Ekonomi dan Bisnis Unud
+20. Politeknik Negeri Bali
+
+## Politeknik Negeri Bali
+0. Politeknik Negeri Bali
+1. Jalan Raya Kampus Unud
+2. Rektorat Unud
+3. Fakultas Teknik Unud
+4. Fakultas Pertanian Unud
+5. RS Unud
+6. Simpang Unud
+7. Jimbaran 4
+8. Jimbaran 3
+9. Bypass Ngurah Rai 4
+10. Kelan
+11. Tuban 5
+12. Tuban 6
+13. RS Murni Teguh
+14. Tuban 7
+15. Raya Kuta 3
+16. Raya Kuta 4
+17. Raya Kuta 5
+18. Sentral Parkir Kuta Luar (Barat)
+19. Mertanadi
+20. Sunset Road 4/3
+21. Sunset Road 6/5
+22. RS Siloam
+23. Tanah Kilap
+24. Mangrove
+25. Pedungan
+26. Kepain
+27. Praja Raksaka
+28. SMAN 10 Denpasar
+29. Simpang Beona
+30. Serangan
+31. Kerta Petasikan
+32. RSUD Bali Mandara
+33. Mertasari
+34. Bet Ngandang
+35. SMPN 9 Denpasar
+36. Pantai Sindhu (Barat)
+37. Simpang Sanur
+38. Patung Titi Banda
+39. Titi Banda
+40. Padang Galak
+41. Pelabuhan Sanur
+42. Pantai Sindhu (Timur)
+43. SMPN 9 Denpasar
+44. Bet Ngandang
+45. Mertasari
+46. Danau Poso
+47. Kerta Petasikan
+48. Pemelisan
+49. Serangan
+50. Indonesia Power
+51. SMAN 10 Denpasar
+52. Praja Raksaka
+53. Kepaon
+54. Mangrove
+55. Tanah Kilap
+56. RS Siloam
+57. Sunset Road 6/5
+58. Sunset Road 4/3
+59. Meranadi
+60. Sentral Parkir Kuta
+
 # K6B (Sentral Parkir Kuta - ITDC The Nusa Dua)
 
 ## Sentral Parkir Kuta
