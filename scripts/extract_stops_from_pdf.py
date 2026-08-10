@@ -184,6 +184,11 @@ def find_label_candidates(words, name):
             results.append(list(chain))
             return
         target_norm = norm_token(toks[i])
+        # A wrapped second (or third) line is usually centered/aligned under
+        # the whole label seen so far, not just the immediately preceding
+        # word, so use the chain's combined x-range for the "below" check.
+        chain_x0 = min(cw["x0"] for cw in chain) if chain else None
+        chain_x1 = max(cw["x1"] for cw in chain) if chain else None
         for w in words:
             if w["idx"] in used or norm_token(w["text"]) != target_norm:
                 continue
@@ -195,8 +200,8 @@ def find_label_candidates(words, name):
                 and 0 <= w["x0"] - cur["x1"] < 10
             )
             below = 2.5 <= (w["y0"] - cur["y0"]) <= 9 and (
-                abs(w["x0"] - cur["x0"]) < 15
-                or not (w["x1"] < cur["x0"] - 5 or w["x0"] > cur["x1"] + 5)
+                abs(w["x0"] - chain_x0) < 15
+                or not (w["x1"] < chain_x0 - 5 or w["x0"] > chain_x1 + 5)
             )
             if same_line or below:
                 backtrack(i + 1, w, used | {w["idx"]}, chain + [w])
@@ -274,13 +279,17 @@ def name_similarity(a, b):
 # Main resolution per stop name
 # ---------------------------------------------------------------------------
 
-def resolve_stop(name, words, links, alias_map, threshold, warnings, link_override_map=None):
+def resolve_stop(name, words, links, alias_map, threshold, warnings, link_override_map=None, claimed=None):
+    if claimed is None:
+        claimed = {}
+
     if link_override_map and name in link_override_map:
         uri = link_override_map[name]
         resolved = resolve_maps_url(uri)
         if resolved["lat"] is None:
             warnings.append(f'--link-override for "{name}" did not resolve to coordinates: {uri}')
             return None
+        claimed[uri] = name
         return {
             "lat": resolved["lat"],
             "lng": resolved["lng"],
@@ -300,7 +309,7 @@ def resolve_stop(name, words, links, alias_map, threshold, warnings, link_overri
     scored = []
     for chain in candidates:
         bbox = bbox_of(chain)
-        for dist, link in nearest_links(bbox, links, limit=3):
+        for dist, link in nearest_links(bbox, links, limit=4):
             if dist > threshold:
                 continue
             try:
@@ -318,8 +327,28 @@ def resolve_stop(name, words, links, alias_map, threshold, warnings, link_overri
         return None
 
     scored.sort(key=lambda t: (t[0], t[1]), reverse=True)
-    best = scored[0]
+
+    if name in alias_map:
+        # An explicit alias means this name IS the other spelling of a
+        # known stop, so intentionally reusing that stop's marker is
+        # correct, not a collision.
+        best = scored[0]
+    else:
+        # Two nearby-but-distinct stops can otherwise both gravitate to the
+        # same highest-scoring marker (e.g. two adjacent numbered stops
+        # sharing one named Google listing between them). Prefer a marker
+        # no other stop has claimed yet; only reuse one if nothing else is
+        # available.
+        best = next((c for c in scored if c[4] not in claimed), None)
+        if best is None:
+            best = scored[0]
+            warnings.append(
+                f'"{name}" could only match a marker already used by '
+                f'"{claimed.get(best[4])}" (uri={best[4]}); coordinates may overlap.'
+            )
+
     sim, _, dist, resolved, uri = best
+    claimed[uri] = name
 
     if sim < 0.5:
         warnings.append(
@@ -378,6 +407,7 @@ def main():
     resolved_cache = {}
     warnings = []
     rows = []
+    claimed = {}
 
     for section_name, direction in direction_map.items():
         stop_names = sections[section_name]
@@ -387,7 +417,7 @@ def main():
             if name not in resolved_cache:
                 resolved_cache[name] = resolve_stop(
                     name, words, links, alias_map, args.link_distance_threshold, warnings,
-                    link_override_map=link_override_map,
+                    link_override_map=link_override_map, claimed=claimed,
                 )
             r = resolved_cache[name]
 
