@@ -51,6 +51,7 @@ STOP_FIELDS = [
 MAPS_URI_RE = re.compile(r"maps\.app\.goo\.gl|google\.com/maps")
 LATLNG_PRECISE_RE = re.compile(r"!3d(-?\d+\.\d+)!4d(-?\d+\.\d+)")
 LATLNG_AT_RE = re.compile(r"@(-?\d+\.\d+),(-?\d+\.\d+)")
+LATLNG_SEARCH_RE = re.compile(r"/maps/search/(-?\d+\.\d+),\+?(-?\d+\.\d+)")
 PLACE_NAME_RE = re.compile(r"/maps/place/([^/@]+)/")
 
 
@@ -253,6 +254,11 @@ def resolve_maps_url(short_url):
     m = LATLNG_PRECISE_RE.search(final_url)
     if not m:
         m = LATLNG_AT_RE.search(final_url)
+    if not m:
+        # A bare dropped pin (no business listing) redirects to a
+        # /maps/search/<lat>,<lng> URL instead of /maps/place/... - seen a
+        # lot on the I1 corridor, where most stops are just raw pins.
+        m = LATLNG_SEARCH_RE.search(final_url)
     lat, lng = (float(m.group(1)), float(m.group(2))) if m else (None, None)
 
     place_match = PLACE_NAME_RE.search(final_url)
