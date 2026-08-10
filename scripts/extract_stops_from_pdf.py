@@ -267,12 +267,27 @@ def resolve_maps_url(short_url):
 
 
 def name_similarity(a, b):
-    """Cheap token-overlap similarity, case/diacritic-insensitive."""
+    """
+    Cheap token-overlap similarity, case/diacritic-insensitive.
+
+    Numbered-series stops (Gatsu Barat 1..12, Tuban 1..7, Teuku Umar 1..8, ...)
+    are common on this map, and a *different* number sharing every other word
+    ("Gatsu Barat 1" vs "Gatsu Barat 9") is strong evidence of the WRONG stop,
+    not a fuzzy match, so it's penalized rather than scored on word overlap
+    alone.
+    """
     na = set(norm_token(t) for t in tokens_of(a) if norm_token(t))
     nb = set(norm_token(t) for t in tokens_of(b) if norm_token(t))
     if not na or not nb:
         return 0.0
-    return len(na & nb) / len(na | nb)
+    sim = len(na & nb) / len(na | nb)
+
+    a_nums = {t for t in na if t.isdigit()}
+    b_nums = {t for t in nb if t.isdigit()}
+    if a_nums and b_nums and a_nums.isdisjoint(b_nums):
+        sim *= 0.3
+
+    return sim
 
 
 # ---------------------------------------------------------------------------
@@ -326,22 +341,30 @@ def resolve_stop(name, words, links, alias_map, threshold, warnings, link_overri
         warnings.append(f'No resolvable marker link found near "{name}"')
         return None
 
-    scored.sort(key=lambda t: (t[0], t[1]), reverse=True)
+    by_sim = sorted(scored, key=lambda t: (t[0], t[1]), reverse=True)
+    by_dist = sorted(scored, key=lambda t: (t[2], -t[0]))
+
+    # A confident name match (unpenalized token overlap, or a numbered-series
+    # match with the SAME number) is trusted over raw proximity. Otherwise -
+    # e.g. a same-family name with a different number, or no name at all -
+    # the label's own physically-nearest marker wins; sim-based ranking
+    # alone would let an unrelated same-family listing several points away
+    # outscore the correct marker sitting right on top of the label.
+    selection_order = by_sim if by_sim[0][0] >= 0.5 else by_dist
 
     if name in alias_map:
         # An explicit alias means this name IS the other spelling of a
         # known stop, so intentionally reusing that stop's marker is
         # correct, not a collision.
-        best = scored[0]
+        best = selection_order[0]
     else:
         # Two nearby-but-distinct stops can otherwise both gravitate to the
-        # same highest-scoring marker (e.g. two adjacent numbered stops
-        # sharing one named Google listing between them). Prefer a marker
-        # no other stop has claimed yet; only reuse one if nothing else is
-        # available.
-        best = next((c for c in scored if c[4] not in claimed), None)
+        # same marker (e.g. two adjacent numbered stops sharing one named
+        # Google listing between them). Prefer a marker no other stop has
+        # claimed yet; only reuse one if nothing else is available.
+        best = next((c for c in selection_order if c[4] not in claimed), None)
         if best is None:
-            best = scored[0]
+            best = selection_order[0]
             warnings.append(
                 f'"{name}" could only match a marker already used by '
                 f'"{claimed.get(best[4])}" (uri={best[4]}); coordinates may overlap.'
