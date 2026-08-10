@@ -22,6 +22,13 @@ osmium extract -p regions/bali.geojson raw/nusa-tenggara-260806.osm.pbf -o data/
 osmium tags-filter data/bali.osm.pbf w/natural=coastline -o features/bali-coastline.osm.pbf
 ```
 
+## Get Administrative Area
+
+```shell
+osmium tags-filter data/bali.osm.pbf r/admin_level=7 -o data/kelurahan_admin7.osm.pbf # kelurahan
+osmium tags-filter data/bali.osm.pbf r/admin_level=6 -o data/kecamatan_admin6.osm.pbf # kecamatan
+```
+
 ## Get Roads
 
 ```shell
