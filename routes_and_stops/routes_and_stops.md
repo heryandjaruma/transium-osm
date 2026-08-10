@@ -1,4 +1,4 @@
-# K1B (Sentral Parkir Kuta - Terminal Ubung)
+# K1B (Sentral Parkir Kuta - Terminal Pesiapan)
 
 ## Sentral Parkir Kuta
 
@@ -73,3 +73,13 @@
 31. Pulau Galang
 32. Imam Bonjol Kelod 2
 33. Imam Bonjol Kelod 3
+
+
+# K2B (Terminal Ubung - Ngurah Rai)
+
+## Sentral Parkir Kuta
+
+
+
+## Terminal Pesiapan
+
