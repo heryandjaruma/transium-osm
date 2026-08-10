@@ -77,9 +77,36 @@
 
 # K2B (Terminal Ubung - Ngurah Rai)
 
+## Terminal Ubung
+
+0. 
+
+## Ngurah Rai
+
+
+# K3B (Terminal Ubung - Icon Bali Mall)
+
+## Terminal Ubung
+
+
+
+## Icon Bali Mall
+
+
+# K4B (Terminal Ubung - Monkey Forest)
+
+## Terminal Ubung
+
+
+
+## Monkey Forest
+
+
+# K6B (Sentral Parkir Kuta - ITDC The Nusa Dua)
+
 ## Sentral Parkir Kuta
 
 
 
-## Terminal Pesiapan
+## ITDC The Nusa Dua
 
