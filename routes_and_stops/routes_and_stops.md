@@ -255,7 +255,7 @@
 27. RS Ari Canti
 28. Kantor Perbekel Desa Mas
 29. RS Kenak Medika
-30. Cok Rai Medika
+30. Cok Rai Pudak
 31. Kantor Perbekel Desa Peliatan
 32. Pura Dalem Puri Peliatan Ubud
 33. Hanoman 1

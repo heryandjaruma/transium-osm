@@ -432,17 +432,35 @@ def main():
     rows = []
     claimed = {}
 
+    # A name aliased to another name that is ITSELF a real stop in this route
+    # (e.g. a typo'd duplicate like "RSU Manuba" -> "RSU Manuaba") must end up
+    # with identical coordinates, not just a similarly-scored one. Resolving
+    # each side independently lets ordinary collision-avoidance treat them as
+    # two different stops competing for the same marker, which can displace
+    # the real one onto a worse fallback. So the alias target is resolved
+    # first and the aliased name simply copies its result.
+    all_stop_names = {n for names in sections.values() for n in names}
+
+    def resolve_with_cache(name):
+        if name in resolved_cache:
+            return resolved_cache[name]
+        target = alias_map.get(name)
+        if target is not None and target in all_stop_names and target != name:
+            result = resolve_with_cache(target)
+        else:
+            result = resolve_stop(
+                name, words, links, alias_map, args.link_distance_threshold, warnings,
+                link_override_map=link_override_map, claimed=claimed,
+            )
+        resolved_cache[name] = result
+        return result
+
     for section_name, direction in direction_map.items():
         stop_names = sections[section_name]
         print(f"\nDirection {direction} ({section_name}): {len(stop_names)} stops")
 
         for i, name in enumerate(stop_names):
-            if name not in resolved_cache:
-                resolved_cache[name] = resolve_stop(
-                    name, words, links, alias_map, args.link_distance_threshold, warnings,
-                    link_override_map=link_override_map, claimed=claimed,
-                )
-            r = resolved_cache[name]
+            r = resolve_with_cache(name)
 
             status = "OK" if r else "MISSING"
             print(f"  [{direction}][{i:02d}] {name:45s} {status}"
