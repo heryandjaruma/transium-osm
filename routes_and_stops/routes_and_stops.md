@@ -181,7 +181,59 @@
 
 ## Sentral Parkir Kuta
 
+0. Sentral Parkir Kuta
+1. Abian Base
+2. Sunset Road 1
+3. Sunset Road 4/3
+4. Sunset Road 6/**5**
+5. RS Siloam
+6. Tanah Kilap
+7. Bypass Ngurah Rai 1
+8. Bypass Ngurah Rai 2
+9. Perum Komplek Burung
+10. Bandara (Terminal internasional)
+11. Bandara (Terminal domestik)
+12. Perum Komplek Burung
+13. Kelan
+14. Bypass Ngurah Rai 3
+15. Jimabaran 1
+16. Jimbaran 2
+17. Taman Griya 1
+18. Taman Griya 2
+19. Mumbul Utara 1
+20. Mumbul Utara 2
+21. Mumbul Utara 3
+22. Bualu Utara
+23. Gardu PLN Nusa Dua
+24. ITDC Selatan
+25. ITDC The Nusa Dua
 
 
 ## ITDC The Nusa Dua
 
+0. ITDC The Nusa Dua
+1. BNDCC
+2. ITDC Utara
+3. Pratama Nusa Dua
+4. Bualu Selatan
+5. Mumbul Selatan 1
+6. Mumbul Selatan 2
+7. Mumbul Selatan 3
+8. Taman Griya 3
+9. Taman Griya 4
+10. Jimbaran 3
+11. Jimbaran 4
+12. Bypass Ngurah Rai 4
+13. Perum Komplek Burung
+14. Bandara (Terminal internasional)
+15. Bandara (Terminal domestik)
+16. Perum Komplek Burung
+17. Bypass Ngurah Rai 5
+18. Bypass Ngurah Rai 6
+19. Setiabudi
+20. RS Siloam
+21. Sunset Road 6/5
+22. Sunset Road 4/3
+23. Sunset Road 2
+24. Abian Base
+25. Sentral Parkir Kuta
