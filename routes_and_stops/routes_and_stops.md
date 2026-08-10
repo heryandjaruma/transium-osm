@@ -4,7 +4,7 @@
 
 0. Sentral Parkir Kuta
 1. Abian Base
-2. Imam Bonjol Kelod 3
+2. Imam Bonjol Kelod 1 (Luar)
 3. Pulau Galang
 4. Simpang Soputan
 5. Abian Timbul
@@ -79,9 +79,84 @@
 
 ## Terminal Ubung
 
-0. 
+0.  Terminal Ubung
+1.  Dharma Negara Alaya
+2.  Gatsu 1
+3.  Nangka Selatan 1
+4.  Nangka Selatan 2
+5.  Nangka Selatan 3
+6.  Banjar Tainsiat
+7.  GOR Ngurah Rai
+8.  SMAN 7 Denpasar
+9.  Melati
+10. Terminal Kreneng
+11. Kayu Mas
+12. RSAD Udayana
+13. Unud Sudirman 1
+14. Unud Sudirman 2
+15. Dewi Sartika
+16. Teuku Umar 1
+17. Teuku Umar 3
+18. Teuku Umar 5
+19. Teuku Umar 7
+20. Buagan 4
+21. Abian Timbul
+22. Simpang Soputan
+23. Pulau Galang
+24. Imam Bonjol Kelod 2
+25. Imam Bonjol Kelod 3
+26. Sunset Road 2
+27. Sentral Parkir Kuta Luar (Timur)
+28. Raya Kuta 1
+29. Raya Kuta 2
+30. Camat Kuta
+31. Tuban 1
+32. TUban 2
+33. RS Murni Teguh
+34. Tuban 3
+35. Tuban 4
+36. Perum Komplek Burung
+37. Bandara (Terminal internasional)
+38. Bandara (Terminal domestik)
 
 ## Ngurah Rai
+
+0.  Bandara (Terminal domestik)
+1.  Perum Komplek Burung
+2.  Tuban 5
+3.  Tuban 6
+4.  RS Murni Teguh
+5.  Tuban 7
+6.  Raya Kuta 3
+7.  Raya Kuta 4
+8.  Raya Kuta 5
+9.  Sentral Parkir Kuta Luar (Barat)
+10. Abian Base
+11. Imam Bonjol Kelod 1 (Lobi)
+12. Pulau Galang
+13. Simpang Soputan
+14. Abian Timbul
+15. Teuku Umar 8
+16. Teuku Umar 6
+17. Teuku Umar 4
+18. Teuku Umar 2
+19. Unud Sudirman 1
+20. Unud Sudirman 2
+21. Diponegoro 1
+22. Diponegoro 2
+23. Veteran 1 Inna Bali Heritage
+24. Pasar Burung Satria
+25. GOR Ngurah Rai
+26. SMAN 7 Denpasar
+27. Melati
+28. Kayu Mas
+29. Kepundung
+30. Suli 1
+31. Suli 2
+32. Suli 3
+33. Gatsu 2
+34. SMPN 10 Denpasar
+35. Terminal Ubung
 
 
 # K3B (Terminal Ubung - Icon Bali Mall)
