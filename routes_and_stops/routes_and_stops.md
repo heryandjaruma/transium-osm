@@ -481,3 +481,86 @@
 7. Prama
 8. Mercure Resort Sanur
 9. Parkir Mertasari
+
+
+# B (GOR Ngurah Rai - UHN Bangli)
+
+## GOR Ngurah Rai
+
+0.  GOR Ngurah Rai Dalam
+1.  UHN Denpasar
+2.  Pura Dalem Bungkeneng
+3.  Living World Denpasar
+4.  Simpang Noja
+5.  Simpang Trengguli
+6.  Sekar Jepun
+7.  Gatsu Timur
+8.  Asrama Brimob
+9.  Terminal Batubulan
+10. Batubulan
+11. Banjar Kalah Batubulan
+12. Lapangan Chandra Muka
+13. Tegal Tamu
+14. Celuk 1
+15. RSU Ganesha
+16. Kantor Perbekel Desa Celuk
+17. Pasar Seni 3 Sukawati
+18. Pasar Seni Sukawati
+19. Peninjoan
+20. Simpang Batuan
+21. Sakah
+22. Kemenuh
+23. Kantor Desa Blahbatuh
+24. Puri Agung Blahbatuh
+25. Indomobil
+26. Cellular World
+27. Pasar Gianyar
+28. Simpang Sidan
+29. Bali Swing
+30. SMKN 3 Bangli
+31. Krematorium Bebalang
+32. Kantor Bupati Bangli
+33. RSJ Bangli
+34. Pegadaian Bangli
+35. Partha Farma
+36. UHN Bangli
+
+## UHN Bangli
+
+0.  UHM Bangli
+1.  Alfamart Timur Polsek Bangli
+2.  Terminal Locacrana
+3.  RSJ Bangli
+4.  Alun-alun Bangli
+5.  Krematorium Bebalang
+6.  SMKN 3 Bangli
+7.  Simpang Sidan
+8.  Pasar Gianyar
+9.  Cellular World
+10. Indomobil
+11. Eks Pasar Blahbatuh
+12. Simpang Sakah
+13. Sakah
+14. Simpang Batuan
+15. Delod Tunon
+16. Babakan Sukawati
+17. Pura Pande Bang
+18. Celuk 2
+19. RSU Ganesha
+20. Celuk 3
+21. SMPN 5 Sukawati
+22. Kantor Desa Batubulan
+23. Batubulan
+24. Terminal Batubulan
+25. Tohpati 3
+26. Gatsu Timur
+27. Sekar Jepun
+28. Simpang Trengguli
+29. Living World Denpasar
+30. Pura Dalem Bungkeneng
+31. UHN Denpasar
+32. SMAN 7 Denpasar
+33. Melati
+34. Kayu Mas
+35. Kepundung
+36. GOR Ngurah Rai Dalam
