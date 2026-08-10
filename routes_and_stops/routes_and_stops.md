@@ -225,10 +225,80 @@
 # K4B (Terminal Ubung - Monkey Forest)
 
 ## Terminal Ubung
-
-
+0. Terminal Ubung
+1. Dharma Negara Alaya
+2. Gatsu 1
+3. Simpang Nangka
+4. Living World Denpasar
+5. Simpang Noja
+6. Simpang Trengguli
+7. Sekar Jepun
+8. Gatsu Timur
+9. Tohpati 1
+10. Kertalangu
+11. Titi Banda
+12. Tohpati 2
+13. Asrama Brimob
+14. Terminal Batubulan
+15. Batubulan
+16. Banjar Kalah Batubulan
+17. Lapangan Chandra Muka
+18. Celuk 3
+19. RSU Ganesha
+20. Celuk 2
+21. Pura Pande Bang
+22. Babakan Sukawati
+23. Delod Tunon
+24. Simpang Batuan
+25. Sakah
+26. Simpang Sakah
+27. RS Ari Canti
+28. Kantor Perbekel Desa Mas
+29. RS Kenak Medika
+30. Cok Rai Medika
+31. Kantor Perbekel Desa Peliatan
+32. Pura Dalem Puri Peliatan Ubud
+33. Hanoman 1
+34. Hanoman 2
+35. Hanoman 3
+36. Sentral Parkir Monkey Forest
 
 ## Monkey Forest
+0. Sentral Parkir Monkey Forest
+1. Monkey Forest 1
+2. Lapangan Astina Ubud
+3. Cok Sudarsana
+4. Kantor Perbekel Desa Peliatan
+5. Cok Rai Pudak
+6. RS Kenak Medika
+7. Kantor Perekel Desa Mas
+8. RS Ari Canti
+9. Simpang Sakah
+10. Sakah
+11. Simpang Batuan
+12. Delod Tunon
+13. Babakan Sukawati
+14. Pura Pande Bang
+15. Celuk 2
+16. RSU Ganesha
+17. Celuk 3
+18. SMPN 5 Sukawati
+19. Kantor Desa Batubulan
+20. Batubulan
+21. Terminal Batubulan
+22. Tohpati 3
+23. Tohpati 1
+24. Kertalangu
+25. Titi Banda
+26. Tohpati 2
+27. Gatsu Timur
+28. Sekar Jepun
+29. Simpang Trengguli
+30. Living World Denpasar
+31. Simpang Nangka
+32. Gatsu 2
+33. SMPN 10 Denpasar
+34. Terminal Ubung
 
 
 # K6B (Sentral Parkir Kuta - ITDC The Nusa Dua)
