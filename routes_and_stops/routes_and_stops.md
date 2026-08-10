@@ -237,3 +237,35 @@
 23. Sunset Road 2
 24. Abian Base
 25. Sentral Parkir Kuta
+
+
+# I1 (Mertasari - Segara Ayu)
+
+## Mertasari
+
+0. Parkir Mertasari
+1. Mercure Resort Sanur
+2. Sudamala
+3. Bhineka
+4. SPKLU Sanur
+5. Jalan Duyung
+6. Andaz Bali
+7. The 101 Sanur
+8. Soya
+9. Icon Bali Mall
+10. Pasar Sindhu
+11. Jalan Wira
+
+
+## Segara Ayu
+
+0. Jalan Wira
+1. Pasar Sindhu
+2. Icon Bali Mall
+3. Soya
+4. The 101 Sanur Hyatt Regency
+5. Massimo
+6. Art Shop Cemara
+7. Prama
+8. Mercure Resort Sanur
+9. Parkir Mertasari
