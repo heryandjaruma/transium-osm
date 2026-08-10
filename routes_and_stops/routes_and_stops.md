@@ -163,9 +163,63 @@
 
 ## Terminal Ubung
 
-
+0.  Terminal Ubung
+1.  Gatsu Barat 1
+2.  Gatsu Barat 3
+3.  Gatsu Barat 5
+4.  Gatsu Barat 7
+5.  Gatsu Barat 9
+6.  Gatsu Barat 11
+7.  Perum Dalung Permai
+8.  Pos Pengamanan Terpadu Dalung
+9.  Gatsu Barat 12
+10. Gatsu Barat 10
+11. Gatsu Barat 8
+12. Gatsu Barat 6
+13. Gatsu Barat 4
+14. Gatsu Barat 2
+15. RSU Manuaba
+16. Sutomo
+17. Puri Agung Jrokuta
+18. Kawasan Heritage Gajah Mada
+19. Kantor Walikota Denpasar
+20. Surapati
+21. RSAD Udayana
+22. Simpang Sudirman
+23. Bank Indonesia Renon
+24. Dishub Prov. Bali
+25. Samsat Renon
+26. Dinas Pariwisata Bali
+27. Kantor Gubernur Bali
+28. Dr. Muwardi
+29. Simpang Renon 1
+30. Simpang Renon 2
+31. SDN 2 Sanur
+32. Simpang Sanur Hang Tuah
+33. Pantai Sindhu (Timur)
+34. Icon Bali Mall
 
 ## Icon Bali Mall
+
+0.  Icon Bali Mall
+1.  Pantai Sindhu (Barat)
+2.  Simpang Sanur Hang Tuah
+3.  Hang Tuah
+4.  Simpang Renon 3
+5.  Simpang Renon 4
+6.  Kantor Gubernur Bali
+7.  Dinas Pariwisata Bali
+8.  Kejati Bali
+9.  Kumham
+10. Disdikpora Provinsi Bali
+11. Dewi Sartika
+12. Diponegoro 1
+13. Diponegoro 2
+14. Hasanuddin
+15. Thamrin
+16. Puri Kawan Jrokuta
+17. RSU Manuaba
+18. Terminal Ubung
 
 
 # K4B (Terminal Ubung - Monkey Forest)
