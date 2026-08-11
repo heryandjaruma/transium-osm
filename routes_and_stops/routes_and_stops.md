@@ -40,39 +40,44 @@
 ## Terminal Pesiapan
 
 0. Terminal Pesiapan
-1.  Simpang Gubug
-2.  Simpang Dukuh
-3.  Simpang Turi
-4.  Simpang Gerokgak
-5.  Simpang Bypass Kediri/Sanggulan
-6.  Terminal Kediri
-7.  Patung Nuwun Padi/Simpang Koripan
-8.  Terminal Mengwi
-9.  Pasar Bringkit
-10. Simpang Panglan
-11. Pasar Kapal
-12. Simpang Darmasaba
-13. Delod Pempatan
-14. Pintu Puspem Badung
-15. Simpang Kargo
-16. Pos Kargo
-17. Petangan Gede
-18. Banjar Tengah Ubung
-19. RSU Manuaba
-20. Sutomo
-21. Puri Agung Jrokuta
-22. Kawasan Heritage Gajah Mada
-23. Hasanuddin
-24. Griya Tegal
-25. Monang Maning
-26. Buagan 2
-27. Buagan 3
-28. Buagan 4
-29. Abian Timbul
-30. Simpang Soputan
-31. Pulau Galang
-32. Imam Bonjol Kelod 2
-33. Imam Bonjol Kelod 3
+1. SMK Bintang Persada
+2.  Simpang Gubug
+3.  Simpang Dukuh
+4.  Simpang Turi
+5.  Simpang Gerokgak
+6.  Simpang Bypass Kediri/Sanggulan
+7.  Terminal Kediri
+8.  Patung Nuwun Padi/Simpang Koripan
+9.  Abian Tuwung
+10. Terminal Mengwi
+11. Pasar Bringkit
+12. Simpang Panglan
+13. Pasar Kapal
+14. RSUD Kapal
+15. Simpang Darmasaba
+16. Delod Pempatan
+17. Pintu Puspem Badung
+18. Simpang Kargo
+19. Pos Kargo
+20. Petangan Gede
+21. Banjar Tengah Ubung
+22. RSU Manuaba
+23. Sutomo
+24. Puri Agung Jrokuta
+25. Kawasan Heritage Gajah Mada
+26. Hasanuddin
+27. Griya Tegal
+28. Monang Maning
+29. Buagan 2
+30. Buagan 3
+31. Buagan 4
+32. Abian Timbul
+33. Simpang Soputan
+34. Pulau Galang
+35. Imam Bonjol Kelod 2
+36. Imam Bonjol Kelod 3
+37. Abian Base
+38. Sentral Parkir Kuta
 
 
 # K2B (Terminal Ubung - Ngurah Rai)
