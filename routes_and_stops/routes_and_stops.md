@@ -110,7 +110,7 @@
 23. Pulau Galang
 24. Imam Bonjol Kelod 2
 25. Imam Bonjol Kelod 3
-26. Sunset Road 2
+26. Abian Base
 27. Sentral Parkir Kuta Luar (Timur)
 28. Raya Kuta 1
 29. Raya Kuta 2
