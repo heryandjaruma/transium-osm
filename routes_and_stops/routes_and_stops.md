@@ -488,6 +488,69 @@
 9. Parkir Mertasari
 
 
+# TS1 (GOR Ngurah Rai Dalam - GWK)
+
+## GOR Ngurah Rai
+0. GOR Ngurah Rai
+1. SMAN 7 Denpasar
+2. Kayu Mas
+3. RSAD Udayana
+4. Unud Sudirman 1
+5. Grand Sudirman
+6. SMK Harapan
+7. Artasedana Sesetan
+8.  McDonald's Sesetan
+9.  Pesanggaran
+10. Kodam
+11. Mitra10
+13. Mal Bali Galeria
+14. Simpang Dewa Ruci
+15. Patasari
+16. Kelan
+17. Kedonganan
+18. Jimbaran 1
+19. Jimbaran 2
+20. Udayana 1
+21. Nirmala
+22. Fakultas Pertanian Unud
+23. Fakultas Teknik Unud
+24. Rektorat Unud
+25. Fakultas MIPA Unud
+26. Fakultas Ekonomi dan Bisnis Unud
+27. Politeknik Negeri Bali Luar
+28. Puri Gading
+29. Garuda Wisnu Kencana
+
+## Garuda Wisnu Kencana
+0. Garuda Wisnu Kencana
+1. Puri Gading
+2. Politeknik Negeri Bali Luar
+3. Fakultas Ekonomi dan Bisnis Unud
+4. Fakultas MIPA Unud
+5. Fakultas Teknik Unud
+6. Fakultas Pertanian Unud
+7. Udayana 2
+8. Udayana 1
+9. Jimbaran 3
+10. Jimbaran 4
+11. Kedonganan
+12. Kelan
+13. Patasari
+14. Tanah Kilap
+15. Mitra10
+16. Kodam
+17. Pesanggaran
+18. PLUT KUMKM Prov. Bali
+19. Artasedana Sesetan
+20. SMK Harapan
+21. Sanglah
+22. Unud Sudirman 2
+23. Dewi Sartika
+24. Diponegoro 1
+25. Surapati
+26. GOR Ngurah Rai Dalam
+
+
 # B (GOR Ngurah Rai - UHN Bangli)
 
 ## GOR Ngurah Rai
