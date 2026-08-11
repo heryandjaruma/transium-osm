@@ -491,7 +491,7 @@
 # TS1 (GOR Ngurah Rai Dalam - GWK)
 
 ## GOR Ngurah Rai
-0. GOR Ngurah Rai
+0. GOR Ngurah Rai Dalam
 1. SMAN 7 Denpasar
 2. Kayu Mas
 3. RSAD Udayana
@@ -503,6 +503,7 @@
 9.  Pesanggaran
 10. Kodam
 11. Mitra10
+12. Mangrove
 13. Mal Bali Galeria
 14. Simpang Dewa Ruci
 15. Patasari
