@@ -402,7 +402,7 @@
 1. Abian Base
 2. Sunset Road 1
 3. Sunset Road 4/3
-4. Sunset Road 6/**5**
+4. Sunset Road 6/5
 5. RS Siloam
 6. Tanah Kilap
 7. Bypass Ngurah Rai 1
