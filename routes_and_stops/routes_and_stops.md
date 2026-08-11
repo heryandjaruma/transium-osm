@@ -248,12 +248,12 @@
 15. Batubulan
 16. Banjar Kalah Batubulan
 17. Lapangan Chandra Muka
-18. Celuk 3
+18. Celuk 1
 19. RSU Ganesha
-20. Celuk 2
-21. Pura Pande Bang
-22. Babakan Sukawati
-23. Delod Tunon
+20. Kantor Perbekel Desa Celuk
+21. Pasar Seni 3 Sukawati
+22. Pasar Seni Sukawati
+23. Peninjoan
 24. Simpang Batuan
 25. Sakah
 26. Simpang Sakah
