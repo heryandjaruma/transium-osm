@@ -116,7 +116,7 @@
 29. Raya Kuta 2
 30. Camat Kuta
 31. Tuban 1
-32. TUban 2
+32. Tuban 2
 33. RS Murni Teguh
 34. Tuban 3
 35. Tuban 4
@@ -480,7 +480,7 @@
 1. Pasar Sindhu
 2. Icon Bali Mall
 3. Soya
-4. The 101 Sanur Hyatt Regency
+4. The 101 Sanur
 5. Massimo
 6. Art Shop Cemara
 7. Prama
