@@ -22,7 +22,7 @@ osmium extract -p regions/bali.geojson raw/nusa-tenggara-260806.osm.pbf -o data/
 ## Get Coastline (Shape of Bali)
 
 ```shell
-osmium tags-filter data/bali.osm.pbf w/natural=coastline -o features/bali-coastline.osm.pbf
+osmium tags-filter data/bali.osm.pbf w/natural=coastline -o raw/bali-coastline.osm.pbf
 ```
 
 ## Get Administrative Area
@@ -73,7 +73,7 @@ GeoPackage-spec warning.
 ## Get Roads
 
 ```shell
-osmium tags-filter data/bali.osm.pbf w/highway -o data/bali-roads.osm.pbf
+osmium tags-filter data/bali.osm.pbf w/highway -o raw/bali-roads.osm.pbf
 ```
 
 ## DuckDB
