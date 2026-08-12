@@ -44,6 +44,32 @@ ogr2ogr -f GPKG -update -append bali_basemap.gpkg data/kelurahan_admin7.osm.pbf 
   -nln kelurahan -nlt PROMOTE_TO_MULTI
 ```
 
+## Get Land
+
+Land polygons come from closed `natural=coastline` ways in the multipolygons
+layer (GDAL's OSM driver auto-closes them into polygons). Find the way by
+name or id, then filter to just its geometry so the schema matches the
+existing `land` layer (geometry only, no attributes):
+
+```shell
+ogr2ogr -f GPKG temps/island_full.gpkg data/bali.osm.pbf \
+  -sql "SELECT * FROM multipolygons WHERE osm_way_id = '<way_id>'" \
+  -nln land -nlt POLYGON
+
+ogr2ogr -f GPKG temps/island.gpkg temps/island_full.gpkg land \
+  -select "" -nln land -nlt POLYGON
+```
+
+Then append into `bali_basemap.gpkg` following the ogr2ogr convention:
+
+```shell
+ogr2ogr -f GPKG -update -append bali_basemap.gpkg temps/island.gpkg land -nln land
+```
+
+Use `-nlt POLYGON` (not `PROMOTE_TO_MULTI`) since the existing `land` layer
+is typed `Polygon` -- appending a `MultiPolygon` still works but throws a
+GeoPackage-spec warning.
+
 ## Get Roads
 
 ```shell
