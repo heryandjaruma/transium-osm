@@ -29,6 +29,18 @@ osmium tags-filter data/bali.osm.pbf r/admin_level=7 -o data/kelurahan_admin7.os
 osmium tags-filter data/bali.osm.pbf r/admin_level=6 -o data/kecamatan_admin6.osm.pbf # kecamatan
 ```
 
+Append into `bali_base_map.gpkg` as `kecamatan`/`kelurahan` layers (osm_id, name, admin_level only):
+
+```shell
+ogr2ogr -f GPKG -update -append bali_base_map.gpkg data/kecamatan_admin6.osm.pbf \
+  -sql "SELECT osm_id, name, admin_level FROM multipolygons WHERE boundary='administrative' AND admin_level='6'" \
+  -nln kecamatan -nlt PROMOTE_TO_MULTI
+
+ogr2ogr -f GPKG -update -append bali_base_map.gpkg data/kelurahan_admin7.osm.pbf \
+  -sql "SELECT osm_id, name, admin_level FROM multipolygons WHERE boundary='administrative' AND admin_level='7'" \
+  -nln kelurahan -nlt PROMOTE_TO_MULTI
+```
+
 ## Get Roads
 
 ```shell
