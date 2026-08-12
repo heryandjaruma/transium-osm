@@ -163,3 +163,84 @@ ogr2ogr \
 ```sql
 "route_ref" LIKE '%K1B%'
 ```
+
+# PMTiles
+
+PMTiles is the expected output that can be consumed by MapLibre to render.
+
+There are 2 main steps:
+1. From gpkg to basemap individual feature geojson
+2. From geojson to one pmtiles with geojson layers
+
+
+## `gpkg` to individual `geojson`
+
+### `bali_basemap.gpkg`
+
+```shell
+ogr2ogr -f GeoJSON build/basemap/land.geojson \
+  bali_basemap.gpkg land -t_srs EPSG:4326
+
+ogr2ogr -f GeoJSON build/basemap/kecamatan.geojson \
+  bali_basemap.gpkg kecamatan -t_srs EPSG:4326
+
+ogr2ogr -f GeoJSON build/basemap/kelurahan.geojson \
+  bali_basemap.gpkg kelurahan -t_srs EPSG:4326
+
+ogr2ogr -f GeoJSON build/basemap/water.geojson \
+  bali_basemap.gpkg water -t_srs EPSG:4326
+
+ogr2ogr -f GeoJSON build/basemap/streams.geojson \
+  bali_basemap.gpkg streams -t_srs EPSG:4326
+
+ogr2ogr -f GeoJSON build/basemap/vegetation.geojson \
+  bali_basemap.gpkg vegetation -t_srs EPSG:4326
+
+ogr2ogr -f GeoJSON build/basemap/roads.geojson \
+  bali_basemap.gpkg roads -t_srs EPSG:4326
+```
+
+### `bali_transit.gpkg`
+
+```shell
+ogr2ogr -f GeoJSON build/transit/bus_routes.geojson \
+  bali_transit.gpkg bus_routes -t_srs EPSG:4326
+
+ogr2ogr -f GeoJSON build/transit/bus_stops.geojson \
+  bali_transit.gpkg bus_stops -t_srs EPSG:4326
+```
+
+
+## `geojson` to one `pmtiles`
+
+### `bali_basemap.gpkg`
+
+```shell
+tippecanoe \
+  -o build/bali_basemap.pmtiles \
+  -Z7 \
+  -z16 \
+  --force \
+  --drop-densest-as-needed \
+  --extend-zooms-if-still-dropping \
+  -L land:build/basemap/land.geojson \
+  -L kecamatan:build/basemap/kecamatan.geojson \
+  -L kelurahan:build/basemap/kelurahan.geojson \
+  -L water:build/basemap/water.geojson \
+  -L streams:build/basemap/streams.geojson \
+  -L vegetation:build/basemap/vegetation.geojson
+```
+
+### `bali_transit.gpkg`
+
+```shell
+tippecanoe \
+  -o build/bali_transit.pmtiles \
+  -Z8 \
+  -z17 \
+  --force \
+  --drop-densest-as-needed \
+  --extend-zooms-if-still-dropping \
+  -L bus_routes:build/transit/bus_routes.geojson \
+  -L bus_stops:build/transit/bus_stops.geojson
+```
