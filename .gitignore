@@ -7,3 +7,6 @@ nusa-tenggara-260806.osm.pbf
 *.gpkg-wal
 
 *.pyc
+
+.venv
+.claude
