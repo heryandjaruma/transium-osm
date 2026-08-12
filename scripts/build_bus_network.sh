@@ -8,7 +8,7 @@
 #   scripts/build_bus_network.sh
 #
 # Output: bali_transit.gpkg (layers: bus_routes, bus_stops), written
-# to the repo root.
+# to the repo root. Leaves the `roads` layer in that file untouched.
 
 set -euo pipefail
 
@@ -17,7 +17,12 @@ cd "$(dirname "$0")/.."
 SRC_DIR="routes_and_stops"
 OUT="bali_transit.gpkg"
 
-rm -f "$OUT"
+# Only drop the two layers this script owns -- $OUT also holds `roads`
+# (moved in from bali_basemap.gpkg), so we can't rm -f the whole file.
+if [ -f "$OUT" ]; then
+    ogrinfo "$OUT" -sql "DROP TABLE bus_routes" >/dev/null 2>&1 || true
+    ogrinfo "$OUT" -sql "DROP TABLE bus_stops" >/dev/null 2>&1 || true
+fi
 
 # direction_id / public_transport:version come in as Integer in some source
 # files and String in others (depends on whether the field was ever blank
