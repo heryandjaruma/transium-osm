@@ -7,7 +7,7 @@
 #   --out temps/streams_filtered.gpkg
 #
 # Then merge into the main map, following docs.md's ogr2ogr convention:
-# ogr2ogr -f GPKG -update -append bali_map.gpkg temps/streams_filtered.gpkg streams -nln streams
+# ogr2ogr -f GPKG -update -append bali_basemap.gpkg temps/streams_filtered.gpkg streams -nln streams
 
 import argparse
 

@@ -7,7 +7,7 @@
 #   --out temps/water_filtered.gpkg
 #
 # Then merge into the main map, following docs.md's ogr2ogr convention:
-# ogr2ogr -f GPKG -update -append bali_map.gpkg temps/water_filtered.gpkg water -nln water
+# ogr2ogr -f GPKG -update -append bali_basemap.gpkg temps/water_filtered.gpkg water -nln water
 
 import argparse
 

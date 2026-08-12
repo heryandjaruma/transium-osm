@@ -4,8 +4,8 @@
 
 GeoPackage. In QGIS, use the same file to keep adding features like `roads`, `vegetation`.
 
-Two gpkg files: `bali_basemap.gpkg` (roads, vegetation, kecamatan, kelurahan) and
-`bali_transit.gpkg` (bus_routes, bus_stops, land).
+Two gpkg files: `bali_basemap.gpkg` (roads, vegetation, kecamatan, kelurahan, water, streams, land) and
+`bali_transit.gpkg` (bus_routes, bus_stops).
 
 Think if `osm.pbf` data as source of truth. Instead of modifying that file directly,
 the process should be filter then export data as you need to another `osm.pbf` or
