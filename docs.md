@@ -228,7 +228,8 @@ tippecanoe \
   -L kelurahan:build/basemap/kelurahan.geojson \
   -L water:build/basemap/water.geojson \
   -L streams:build/basemap/streams.geojson \
-  -L vegetation:build/basemap/vegetation.geojson
+  -L vegetation:build/basemap/vegetation.geojson \
+  -L roads:build/basemap/roads.geojson
 ```
 
 ### `bali_transit.gpkg`
