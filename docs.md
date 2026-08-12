@@ -2,7 +2,10 @@
 
 ## `gpkg`
 
-GeoPackage. In QGIS, use the same file to keep adding features like `land`. `roads`.
+GeoPackage. In QGIS, use the same file to keep adding features like `roads`, `vegetation`.
+
+Two gpkg files: `bali_basemap.gpkg` (roads, vegetation, kecamatan, kelurahan) and
+`bali_transit.gpkg` (bus_routes, bus_stops, land).
 
 Think if `osm.pbf` data as source of truth. Instead of modifying that file directly,
 the process should be filter then export data as you need to another `osm.pbf` or
@@ -29,14 +32,14 @@ osmium tags-filter data/bali.osm.pbf r/admin_level=7 -o data/kelurahan_admin7.os
 osmium tags-filter data/bali.osm.pbf r/admin_level=6 -o data/kecamatan_admin6.osm.pbf # kecamatan
 ```
 
-Append into `bali_base_map.gpkg` as `kecamatan`/`kelurahan` layers (osm_id, name, admin_level only):
+Append into `bali_basemap.gpkg` as `kecamatan`/`kelurahan` layers (osm_id, name, admin_level only):
 
 ```shell
-ogr2ogr -f GPKG -update -append bali_base_map.gpkg data/kecamatan_admin6.osm.pbf \
+ogr2ogr -f GPKG -update -append bali_basemap.gpkg data/kecamatan_admin6.osm.pbf \
   -sql "SELECT osm_id, name, admin_level FROM multipolygons WHERE boundary='administrative' AND admin_level='6'" \
   -nln kecamatan -nlt PROMOTE_TO_MULTI
 
-ogr2ogr -f GPKG -update -append bali_base_map.gpkg data/kelurahan_admin7.osm.pbf \
+ogr2ogr -f GPKG -update -append bali_basemap.gpkg data/kelurahan_admin7.osm.pbf \
   -sql "SELECT osm_id, name, admin_level FROM multipolygons WHERE boundary='administrative' AND admin_level='7'" \
   -nln kelurahan -nlt PROMOTE_TO_MULTI
 ```
@@ -109,7 +112,7 @@ ogr2ogr \
   -f GPKG \
   -update \
   -append \
-  bali_map.gpkg \
+  bali_transit.gpkg \
   temps/k5b_17530739.gpkg \
   bus_routes \
   -nln bus_routes
@@ -122,7 +125,7 @@ ogr2ogr \
   -f GPKG \
   -update \
   -append \
-  bali_map.gpkg \
+  bali_transit.gpkg \
   temps/k5b_17530739.gpkg \
   bus_stops \
   -nln bus_stops
