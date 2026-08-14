@@ -240,8 +240,7 @@ tippecanoe \
   -Z8 \
   -z17 \
   --force \
-  --drop-densest-as-needed \
-  --extend-zooms-if-still-dropping \
+  -r1 \
   -L bus_routes:build/transit/bus_routes.geojson \
   -L bus_stops:build/transit/bus_stops.geojson
 ```
