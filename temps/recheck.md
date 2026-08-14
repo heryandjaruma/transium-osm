@@ -413,25 +413,26 @@
 4. Sunset Road 6/5  <!-- STOP_K6B_1_04 -->
 5. RS Siloam  <!-- STOP_K6B_1_05 -->
 6. Tanah Kilap  <!-- STOP_K6B_1_06 -->
-7. Bypass Ngurah Rai 1  <!-- STOP_K6B_1_07 -->
-8. Bypass Ngurah Rai 2  <!-- STOP_K6B_1_08 -->
-9. Perum Komplek Burung  <!-- STOP_K6B_1_09 -->
-10. Bandara (Terminal internasional)  <!-- STOP_K6B_1_10 -->
-11. Bandara (Terminal domestik)  <!-- STOP_K6B_1_11 -->
-12. Perum Komplek Burung  <!-- STOP_K6B_1_12 -->
-13. Kelan  <!-- STOP_K6B_1_13 -->
-14. Bypass Ngurah Rai 3  <!-- STOP_K6B_1_14 -->
-15. Jimabaran 1  <!-- STOP_K6B_1_15 -->
-16. Jimbaran 2  <!-- STOP_K6B_1_16 -->
-17. Taman Griya 1  <!-- STOP_K6B_1_17 -->
-18. Taman Griya 2  <!-- STOP_K6B_1_18 -->
-19. Mumbul Utara 1  <!-- STOP_K6B_1_19 -->
-20. Mumbul Utara 2  <!-- STOP_K6B_1_20 -->
-21. Mumbul Utara 3  <!-- STOP_K6B_1_21 -->
-22. Bualu Utara  <!-- STOP_K6B_1_22 -->
-23. Gardu PLN Nusa Dua  <!-- STOP_K6B_1_23 -->
-24. ITDC Selatan  <!-- STOP_K6B_1_24 -->
-25. ITDC The Nusa Dua  <!-- STOP_K6B_1_25 -->
+7. Tanah Kilap  <!-- STOP_K6B_1_07 -->
+8. Bypass Ngurah Rai 1  <!-- STOP_K6B_1_08 -->
+9. Bypass Ngurah Rai 2  <!-- STOP_K6B_1_09 -->
+10. Perum Komplek Burung  <!-- STOP_K6B_1_10 -->
+11. Bandara (Terminal internasional)  <!-- STOP_K6B_1_11 -->
+12. Bandara (Terminal domestik)  <!-- STOP_K6B_1_12 -->
+13. Perum Komplek Burung  <!-- STOP_K6B_1_13 -->
+14. Kelan  <!-- STOP_K6B_1_14 -->
+15. Bypass Ngurah Rai 3  <!-- STOP_K6B_1_15 -->
+16. Jimabaran 1  <!-- STOP_K6B_1_16 -->
+17. Jimbaran 2  <!-- STOP_K6B_1_17 -->
+18. Taman Griya 1  <!-- STOP_K6B_1_18 -->
+19. Taman Griya 2  <!-- STOP_K6B_1_19 -->
+20. Mumbul Utara 1  <!-- STOP_K6B_1_20 -->
+21. Mumbul Utara 2  <!-- STOP_K6B_1_21 -->
+22. Mumbul Utara 3  <!-- STOP_K6B_1_22 -->
+23. Bualu Utara  <!-- STOP_K6B_1_23 -->
+24. Gardu PLN Nusa Dua  <!-- STOP_K6B_1_24 -->
+25. ITDC Selatan  <!-- STOP_K6B_1_25 -->
+26. ITDC The Nusa Dua  <!-- STOP_K6B_1_26 -->
 
 ## direction 1 (source: k6b_ITDC_bus_stops.gpkg, starts: ITDC The Nusa Dua, gpkg direction attr: 0)
 
@@ -448,19 +449,20 @@
 10. Jimbaran 3  <!-- STOP_K6B_0_10 -->
 11. Jimbaran 4  <!-- STOP_K6B_0_11 -->
 12. Bypass Ngurah Rai 4  <!-- STOP_K6B_0_12 -->
-13. Perum Komplek Burung  <!-- STOP_K6B_0_13 -->
-14. Bandara (Terminal internasional)  <!-- STOP_K6B_0_14 -->
-15. Bandara (Terminal domestik)  <!-- STOP_K6B_0_15 -->
-16. Perum Komplek Burung  <!-- STOP_K6B_0_16 -->
-17. Bypass Ngurah Rai 5  <!-- STOP_K6B_0_17 -->
-18. Bypass Ngurah Rai 6  <!-- STOP_K6B_0_18 -->
-19. Setiabudi  <!-- STOP_K6B_0_19 -->
-20. RS Siloam  <!-- STOP_K6B_0_20 -->
-21. Sunset Road 6/5  <!-- STOP_K6B_0_21 -->
-22. Sunset Road 4/3  <!-- STOP_K6B_0_22 -->
-23. Sunset Road 2  <!-- STOP_K6B_0_23 -->
-24. Abian Base  <!-- STOP_K6B_0_24 -->
-25. Sentral Parkir Kuta  <!-- STOP_K6B_0_25 -->
+13. Kelan  <!-- STOP_K6B_0_13 -->
+14. Perum Komplek Burung  <!-- STOP_K6B_0_14 -->
+15. Bandara (Terminal internasional)  <!-- STOP_K6B_0_15 -->
+16. Bandara (Terminal domestik)  <!-- STOP_K6B_0_16 -->
+17. Perum Komplek Burung  <!-- STOP_K6B_0_17 -->
+18. Bypass Ngurah Rai 5  <!-- STOP_K6B_0_18 -->
+19. Bypass Ngurah Rai 6  <!-- STOP_K6B_0_19 -->
+20. Setiabudi  <!-- STOP_K6B_0_20 -->
+21. RS Siloam  <!-- STOP_K6B_0_21 -->
+22. Sunset Road 6/5  <!-- STOP_K6B_0_22 -->
+23. Sunset Road 4/3  <!-- STOP_K6B_0_23 -->
+24. Sunset Road 2  <!-- STOP_K6B_0_24 -->
+25. Abian Base  <!-- STOP_K6B_0_25 -->
+26. Sentral Parkir Kuta  <!-- STOP_K6B_0_26 -->
 
 
 # I1
