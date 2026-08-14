@@ -82,86 +82,86 @@
 
 # K2B
 
-## direction 0 (source: k2b_TerminalUbung_bus_stops.gpkg, starts: Terminal Ubung, gpkg direction attr: 1)
+## direction 0 (source: k2b_TerminalUbung_bus_stops.gpkg, starts: Terminal Ubung, gpkg direction attr: 0)
 
-0. Terminal Ubung  <!-- STOP_K2B_1_00 -->
-1. Dharma Negara Alaya  <!-- STOP_K2B_1_01 -->
-2. Gatsu 1  <!-- STOP_K2B_1_02 -->
-3. Nangka Selatan 1  <!-- STOP_K2B_1_03 -->
-4. Nangka Selatan 2  <!-- STOP_K2B_1_04 -->
-5. Nangka Selatan 3  <!-- STOP_K2B_1_05 -->
-6. Banjar Tainsiat  <!-- STOP_K2B_1_06 -->
-7. GOR Ngurah Rai  <!-- STOP_K2B_1_07 -->
-8. SMAN 7 Denpasar  <!-- STOP_K2B_1_08 -->
-9. Melati  <!-- STOP_K2B_1_09 -->
-10. Terminal Kreneng  <!-- STOP_K2B_1_10 -->
-11. Kayu Mas  <!-- STOP_K2B_1_11 -->
-12. RSAD Udayana  <!-- STOP_K2B_1_12 -->
-13. Unud Sudirman 1  <!-- STOP_K2B_1_13 -->
-14. Unud Sudirman 2  <!-- STOP_K2B_1_14 -->
-15. Dewi Sartika  <!-- STOP_K2B_1_15 -->
-16. Teuku Umar 1  <!-- STOP_K2B_1_16 -->
-17. Teuku Umar 3  <!-- STOP_K2B_1_17 -->
-18. Teuku Umar 5  <!-- STOP_K2B_1_18 -->
-19. Teuku Umar 7  <!-- STOP_K2B_1_19 -->
-20. Buagan 4  <!-- STOP_K2B_1_20 -->
-21. Abian Timbul  <!-- STOP_K2B_1_21 -->
-22. Simpang Soputan  <!-- STOP_K2B_1_22 -->
-23. Pulau Galang  <!-- STOP_K2B_1_23 -->
-24. Imam Bonjol Kelod 2  <!-- STOP_K2B_1_24 -->
-25. Imam Bonjol Kelod 3  <!-- STOP_K2B_1_25 -->
-26. Abian Base  <!-- STOP_K2B_1_26 -->
-27. Sentral Parkir Kuta Luar (Timur)  <!-- STOP_K2B_1_27 -->
-28. Raya Kuta 1  <!-- STOP_K2B_1_28 -->
-29. Raya Kuta 2  <!-- STOP_K2B_1_29 -->
-30. Camat Kuta  <!-- STOP_K2B_1_30 -->
-31. Tuban 1  <!-- STOP_K2B_1_31 -->
-32. Tuban 2  <!-- STOP_K2B_1_32 -->
-33. RS Murni Teguh  <!-- STOP_K2B_1_33 -->
-34. Tuban 3  <!-- STOP_K2B_1_34 -->
-35. Tuban 4  <!-- STOP_K2B_1_35 -->
-36. Perum Komplek Burung  <!-- STOP_K2B_1_36 -->
-37. Bandara (Terminal internasional)  <!-- STOP_K2B_1_37 -->
-38. Bandara (Terminal domestik)  <!-- STOP_K2B_1_38 -->
+0. Terminal Ubung  <!-- STOP_K2B_0_00 -->
+1. Dharma Negara Alaya  <!-- STOP_K2B_0_01 -->
+2. Gatsu 1  <!-- STOP_K2B_0_02 -->
+3. Nangka Selatan 1  <!-- STOP_K2B_0_03 -->
+4. Nangka Selatan 2  <!-- STOP_K2B_0_04 -->
+5. Nangka Selatan 3  <!-- STOP_K2B_0_05 -->
+6. Banjar Tainsiat  <!-- STOP_K2B_0_06 -->
+7. GOR Ngurah Rai  <!-- STOP_K2B_0_07 -->
+8. SMAN 7 Denpasar  <!-- STOP_K2B_0_08 -->
+9. Melati  <!-- STOP_K2B_0_09 -->
+10. Terminal Kreneng  <!-- STOP_K2B_0_10 -->
+11. Kayu Mas  <!-- STOP_K2B_0_11 -->
+12. RSAD Udayana  <!-- STOP_K2B_0_12 -->
+13. Unud Sudirman 1  <!-- STOP_K2B_0_13 -->
+14. Unud Sudirman 2  <!-- STOP_K2B_0_14 -->
+15. Dewi Sartika  <!-- STOP_K2B_0_15 -->
+16. Teuku Umar 1  <!-- STOP_K2B_0_16 -->
+17. Teuku Umar 3  <!-- STOP_K2B_0_17 -->
+18. Teuku Umar 5  <!-- STOP_K2B_0_18 -->
+19. Teuku Umar 7  <!-- STOP_K2B_0_19 -->
+20. Buagan 4  <!-- STOP_K2B_0_20 -->
+21. Abian Timbul  <!-- STOP_K2B_0_21 -->
+22. Simpang Soputan  <!-- STOP_K2B_0_22 -->
+23. Pulau Galang  <!-- STOP_K2B_0_23 -->
+24. Imam Bonjol Kelod 2  <!-- STOP_K2B_0_24 -->
+25. Imam Bonjol Kelod 3  <!-- STOP_K2B_0_25 -->
+26. Abian Base  <!-- STOP_K2B_0_26 -->
+27. Sentral Parkir Kuta Luar (Timur)  <!-- STOP_K2B_0_27 -->
+28. Raya Kuta 1  <!-- STOP_K2B_0_28 -->
+29. Raya Kuta 2  <!-- STOP_K2B_0_29 -->
+30. Camat Kuta  <!-- STOP_K2B_0_30 -->
+31. Tuban 1  <!-- STOP_K2B_0_31 -->
+32. Tuban 2  <!-- STOP_K2B_0_32 -->
+33. RS Murni Teguh  <!-- STOP_K2B_0_33 -->
+34. Tuban 3  <!-- STOP_K2B_0_34 -->
+35. Tuban 4  <!-- STOP_K2B_0_35 -->
+36. Perum Komplek Burung  <!-- STOP_K2B_0_36 -->
+37. Bandara (Terminal internasional)  <!-- STOP_K2B_0_37 -->
+38. Bandara (Terminal domestik)  <!-- STOP_K2B_0_38 -->
 
-## direction 1 (source: k2b_NgurahRai_bus_stops.gpkg, starts: Bandara (Terminal domestik), gpkg direction attr: 0)
+## direction 1 (source: k2b_NgurahRai_bus_stops.gpkg, starts: Bandara (Terminal domestik), gpkg direction attr: 1)
 
-0. Bandara (Terminal domestik)  <!-- STOP_K2B_0_00 -->
-1. Perum Komplek Burung  <!-- STOP_K2B_0_01 -->
-2. Tuban 5  <!-- STOP_K2B_0_02 -->
-3. Tuban 6  <!-- STOP_K2B_0_03 -->
-4. RS Murni Teguh  <!-- STOP_K2B_0_04 -->
-5. Tuban 7  <!-- STOP_K2B_0_05 -->
-6. Raya Kuta 3  <!-- STOP_K2B_0_06 -->
-7. Raya Kuta 4  <!-- STOP_K2B_0_07 -->
-8. Raya Kuta 5  <!-- STOP_K2B_0_08 -->
-9. Sentral Parkir Kuta Luar (Barat)  <!-- STOP_K2B_0_09 -->
-10. Abian Base  <!-- STOP_K2B_0_10 -->
-11. Imam Bonjol Kelod 1 (Lobi)  <!-- STOP_K2B_0_11 -->
-12. Pulau Galang  <!-- STOP_K2B_0_12 -->
-13. Simpang Soputan  <!-- STOP_K2B_0_13 -->
-14. Abian Timbul  <!-- STOP_K2B_0_14 -->
-15. Teuku Umar 8  <!-- STOP_K2B_0_15 -->
-16. Teuku Umar 6  <!-- STOP_K2B_0_16 -->
-17. Teuku Umar 4  <!-- STOP_K2B_0_17 -->
-18. Teuku Umar 2  <!-- STOP_K2B_0_18 -->
-19. Unud Sudirman 1  <!-- STOP_K2B_0_19 -->
-20. Unud Sudirman 2  <!-- STOP_K2B_0_20 -->
-21. Diponegoro 1  <!-- STOP_K2B_0_21 -->
-22. Diponegoro 2  <!-- STOP_K2B_0_22 -->
-23. Veteran 1 Inna Bali Heritage  <!-- STOP_K2B_0_23 -->
-24. Pasar Burung Satria  <!-- STOP_K2B_0_24 -->
-25. GOR Ngurah Rai  <!-- STOP_K2B_0_25 -->
-26. SMAN 7 Denpasar  <!-- STOP_K2B_0_26 -->
-27. Melati  <!-- STOP_K2B_0_27 -->
-28. Kayu Mas  <!-- STOP_K2B_0_28 -->
-29. Kepundung  <!-- STOP_K2B_0_29 -->
-30. Suli 1  <!-- STOP_K2B_0_30 -->
-31. Suli 2  <!-- STOP_K2B_0_31 -->
-32. Suli 3  <!-- STOP_K2B_0_32 -->
-33. Gatsu 2  <!-- STOP_K2B_0_33 -->
-34. SMPN 10 Denpasar  <!-- STOP_K2B_0_34 -->
-35. Terminal Ubung  <!-- STOP_K2B_0_35 -->
+0. Bandara (Terminal domestik)  <!-- STOP_K2B_1_00 -->
+1. Perum Komplek Burung  <!-- STOP_K2B_1_01 -->
+2. Tuban 5  <!-- STOP_K2B_1_02 -->
+3. Tuban 6  <!-- STOP_K2B_1_03 -->
+4. RS Murni Teguh  <!-- STOP_K2B_1_04 -->
+5. Tuban 7  <!-- STOP_K2B_1_05 -->
+6. Raya Kuta 3  <!-- STOP_K2B_1_06 -->
+7. Raya Kuta 4  <!-- STOP_K2B_1_07 -->
+8. Raya Kuta 5  <!-- STOP_K2B_1_08 -->
+9. Sentral Parkir Kuta Luar (Barat)  <!-- STOP_K2B_1_09 -->
+10. Abian Base  <!-- STOP_K2B_1_10 -->
+11. Imam Bonjol Kelod 1 (Lobi)  <!-- STOP_K2B_1_11 -->
+12. Pulau Galang  <!-- STOP_K2B_1_12 -->
+13. Simpang Soputan  <!-- STOP_K2B_1_13 -->
+14. Abian Timbul  <!-- STOP_K2B_1_14 -->
+15. Teuku Umar 8  <!-- STOP_K2B_1_15 -->
+16. Teuku Umar 6  <!-- STOP_K2B_1_16 -->
+17. Teuku Umar 4  <!-- STOP_K2B_1_17 -->
+18. Teuku Umar 2  <!-- STOP_K2B_1_18 -->
+19. Unud Sudirman 1  <!-- STOP_K2B_1_19 -->
+20. Unud Sudirman 2  <!-- STOP_K2B_1_20 -->
+21. Diponegoro 1  <!-- STOP_K2B_1_21 -->
+22. Diponegoro 2  <!-- STOP_K2B_1_22 -->
+23. Veteran 1 Inna Bali Heritage  <!-- STOP_K2B_1_23 -->
+24. Pasar Burung Satria  <!-- STOP_K2B_1_24 -->
+25. GOR Ngurah Rai  <!-- STOP_K2B_1_25 -->
+26. SMAN 7 Denpasar  <!-- STOP_K2B_1_26 -->
+27. Melati  <!-- STOP_K2B_1_27 -->
+28. Kayu Mas  <!-- STOP_K2B_1_28 -->
+29. Kepundung  <!-- STOP_K2B_1_29 -->
+30. Suli 1  <!-- STOP_K2B_1_30 -->
+31. Suli 2  <!-- STOP_K2B_1_31 -->
+32. Suli 3  <!-- STOP_K2B_1_32 -->
+33. Gatsu 2  <!-- STOP_K2B_1_33 -->
+34. SMPN 10 Denpasar  <!-- STOP_K2B_1_34 -->
+35. Terminal Ubung  <!-- STOP_K2B_1_35 -->
 
 
 # K3B
