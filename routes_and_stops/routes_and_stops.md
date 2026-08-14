@@ -310,27 +310,26 @@
 
 ## Sentral Parkir Kuta
 0. Sentral Parkir Kuta
-1. Sentral Parkir Kuta Luar (Timur)
-2. Raya Kuta 1
-3. Raya Kuta 2
-4. Camat Kuta
-5. Tuban 1
-6. Tuban 2
-7. RS Murni Teguh
-8. Tuban 3
-9. Tuban 4
-10. Kelan
-11. Bypass Ngurah Rai 3
-12. Jimbaran 1
-13. Jimbaran 2
-14. Simpang Unud
-15. RS Unud
-16. Fakultas Pertanian Unud
-17. Fakultas Teknik Unud
-18. Rektorat Unud
-19. Fakultas MIPA Unud
-20. Fakultas Ekonomi dan Bisnis Unud
-21. Politeknik Negeri Bali
+1. Raya Kuta 1
+2. Raya Kuta 2
+3. Camat Kuta
+4. Tuban 1
+5. Tuban 2
+6. RS Murni Teguh
+7. Tuban 3
+8. Tuban 4
+9.  Kelan
+10. Bypass Ngurah Rai 3
+11. Jimbaran 1
+12. Jimbaran 2
+13. Simpang Unud
+14. RS Unud
+15. Fakultas Pertanian Unud
+16. Fakultas Teknik Unud
+17. Rektorat Unud
+18. Fakultas MIPA Unud
+19. Fakultas Ekonomi dan Bisnis Unud
+20. Politeknik Negeri Bali
 
 ## Politeknik Negeri Bali
 0. Politeknik Negeri Bali

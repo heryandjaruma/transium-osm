@@ -310,6 +310,31 @@
 
 # K5B
 
+## direction 1 (source: k5b_SentralParkirKuta_bus_stops.gpkg, starts: Sentral Parkir Kuta, gpkg direction attr: 1)
+
+0. Sentral Parkir Kuta  <!-- STOP_K5B_1_00 -->
+1. Raya Kuta 1  <!-- STOP_K5B_1_01 -->
+2. Raya Kuta 2  <!-- STOP_K5B_1_02 -->
+3. Camat Kuta  <!-- STOP_K5B_1_03 -->
+4. Tuban 1  <!-- STOP_K5B_1_04 -->
+5. Tuban 2  <!-- STOP_K5B_1_05 -->
+6. RS Murni Teguh  <!-- STOP_K5B_1_06 -->
+7. Tuban 3  <!-- STOP_K5B_1_07 -->
+8. Tuban 4  <!-- STOP_K5B_1_08 -->
+9.  Kelan  <!-- STOP_K5B_1_09 -->
+10. Bypass Ngurah Rai 3  <!-- STOP_K5B_1_10 -->
+11. Jimbaran 1  <!-- STOP_K5B_1_11 -->
+12. Jimbaran 2  <!-- STOP_K5B_1_12 -->
+13. Simpang Unud  <!-- STOP_K5B_1_13 -->
+14. RS Unud  <!-- STOP_K5B_1_14 -->
+15. Fakultas Pertanian Unud  <!-- STOP_K5B_1_15 -->
+16. Fakultas Teknik Unud  <!-- STOP_K5B_1_16 -->
+17. Rektorat Unud  <!-- STOP_K5B_1_17 -->
+18. Fakultas MIPA Unud  <!-- STOP_K5B_1_18 -->
+19. Fakultas Ekonomi dan Bisnis Unud  <!-- STOP_K5B_1_19 -->
+20. Politeknik Negeri Bali  <!-- STOP_K5B_1_20 -->
+
+
 ## direction 0 (source: k5b_PoliteknikNegeriBali_bus_stops.gpkg, starts: Politeknik Negeri Bali, gpkg direction attr: 0)
 
 0. Politeknik Negeri Bali  <!-- STOP_K5B_0_00 -->
@@ -376,32 +401,6 @@
 61. Sunset Road 4/3  <!-- STOP_K5B_0_61 -->
 62. Mertanadi  <!-- STOP_K5B_0_62 -->
 63. Sentral Parkir Kuta  <!-- STOP_K5B_0_63 -->
-
-## direction 1 (source: k5b_SentralParkirKuta_bus_stops.gpkg, starts: Sentral Parkir Kuta, gpkg direction attr: 1)
-
-0. Sentral Parkir Kuta  <!-- STOP_K5B_1_00 -->
-1. Sentral Parkir Kuta Luar (Timur)  <!-- STOP_K5B_1_01 -->
-2. Raya Kuta 1  <!-- STOP_K5B_1_02 -->
-3. Raya Kuta 2  <!-- STOP_K5B_1_03 -->
-4. Camat Kuta  <!-- STOP_K5B_1_04 -->
-5. Tuban 1  <!-- STOP_K5B_1_05 -->
-6. Tuban 2  <!-- STOP_K5B_1_06 -->
-7. RS Murni Teguh  <!-- STOP_K5B_1_07 -->
-8. Tuban 3  <!-- STOP_K5B_1_08 -->
-9. Tuban 4  <!-- STOP_K5B_1_09 -->
-10. Kelan  <!-- STOP_K5B_1_10 -->
-11. Bypass Ngurah Rai 3  <!-- STOP_K5B_1_11 -->
-12. Jimbaran 1  <!-- STOP_K5B_1_12 -->
-13. Jimbaran 2  <!-- STOP_K5B_1_13 -->
-14. Simpang Unud  <!-- STOP_K5B_1_14 -->
-15. RS Unud  <!-- STOP_K5B_1_15 -->
-16. Fakultas Pertanian Unud  <!-- STOP_K5B_1_16 -->
-17. Fakultas Teknik Unud  <!-- STOP_K5B_1_17 -->
-18. Rektorat Unud  <!-- STOP_K5B_1_18 -->
-19. Fakultas MIPA Unud  <!-- STOP_K5B_1_19 -->
-20. Fakultas Ekonomi dan Bisnis Unud  <!-- STOP_K5B_1_20 -->
-21. Politeknik Negeri Bali  <!-- STOP_K5B_1_21 -->
-
 
 # K6B
 
