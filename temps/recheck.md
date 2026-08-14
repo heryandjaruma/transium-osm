@@ -512,24 +512,23 @@
 9. Pesanggaran  <!-- STOP_TS1_0_09 -->
 10. Kodam  <!-- STOP_TS1_0_10 -->
 11. Mitra10  <!-- STOP_TS1_0_11 -->
-12. Mangrove  <!-- STOP_TS1_0_12 -->
-13. Mal Bali Galeria  <!-- STOP_TS1_0_13 -->
-14. Simpang Dewa Ruci  <!-- STOP_TS1_0_14 -->
-15. Patasari  <!-- STOP_TS1_0_15 -->
-16. Kelan  <!-- STOP_TS1_0_16 -->
-17. Kedonganan  <!-- STOP_TS1_0_17 -->
-18. Jimbaran 1  <!-- STOP_TS1_0_18 -->
-19. Jimbaran 2  <!-- STOP_TS1_0_19 -->
-20. Udayana 1  <!-- STOP_TS1_0_20 -->
-21. Nirmala  <!-- STOP_TS1_0_21 -->
-22. Fakultas Pertanian Unud  <!-- STOP_TS1_0_22 -->
-23. Fakultas Teknik Unud  <!-- STOP_TS1_0_23 -->
-24. Rektorat Unud  <!-- STOP_TS1_0_24 -->
-25. Fakultas MIPA Unud  <!-- STOP_TS1_0_25 -->
-26. Fakultas Ekonomi dan Bisnis Unud  <!-- STOP_TS1_0_26 -->
-27. Politeknik Negeri Bali Luar  <!-- STOP_TS1_0_27 -->
-28. Puri Gading  <!-- STOP_TS1_0_28 -->
-29. Garuda Wisnu Kencana  <!-- STOP_TS1_0_29 -->
+12. Mal Bali Galeria  <!-- STOP_TS1_0_12 -->
+13. Simpang Dewa Ruci  <!-- STOP_TS1_0_13 -->
+14. Patasari  <!-- STOP_TS1_0_14 -->
+15. Kelan  <!-- STOP_TS1_0_15 -->
+16. Kedonganan  <!-- STOP_TS1_0_16 -->
+17. Jimbaran 1  <!-- STOP_TS1_0_17 -->
+18. Jimbaran 2  <!-- STOP_TS1_0_18 -->
+19. Udayana 1  <!-- STOP_TS1_0_19 -->
+20. Nirmala  <!-- STOP_TS1_0_20 -->
+21. Fakultas Pertanian Unud  <!-- STOP_TS1_0_21 -->
+22. Fakultas Teknik Unud  <!-- STOP_TS1_0_22 -->
+23. Rektorat Unud  <!-- STOP_TS1_0_23 -->
+24. Fakultas MIPA Unud  <!-- STOP_TS1_0_24 -->
+25. Fakultas Ekonomi dan Bisnis Unud  <!-- STOP_TS1_0_25 -->
+26. Politeknik Negeri Bali Luar  <!-- STOP_TS1_0_26 -->
+27. Puri Gading  <!-- STOP_TS1_0_27 -->
+28. Garuda Wisnu Kencana  <!-- STOP_TS1_0_28 -->
 
 ## direction 1 (source: ts1_GWK_bus_stops.gpkg, starts: Garuda Wisnu Kencana, gpkg direction attr: 1)
 
