@@ -229,83 +229,83 @@
 
 # K4B
 
-## direction 0 (source: k4b_TerminalUbung_bus_stops.gpkg, starts: Terminal Ubung, gpkg direction attr: 1)
+## direction 0 (source: k4b_TerminalUbung_bus_stops.gpkg, starts: Terminal Ubung, gpkg direction attr: 0)
 
-0. Terminal Ubung  <!-- STOP_K4B_1_00 -->
-1. Dharma Negara Alaya  <!-- STOP_K4B_1_01 -->
-2. Gatsu 1  <!-- STOP_K4B_1_02 -->
-3. Simpang Nangka  <!-- STOP_K4B_1_03 -->
-4. Living World Denpasar  <!-- STOP_K4B_1_04 -->
-5. Simpang Noja  <!-- STOP_K4B_1_05 -->
-6. Simpang Trengguli  <!-- STOP_K4B_1_06 -->
-7. Sekar Jepun  <!-- STOP_K4B_1_07 -->
-8. Gatsu Timur  <!-- STOP_K4B_1_08 -->
-9. Tohpati 1  <!-- STOP_K4B_1_09 -->
-10. Kertalangu  <!-- STOP_K4B_1_10 -->
-11. Titi Banda  <!-- STOP_K4B_1_11 -->
-12. Tohpati 2  <!-- STOP_K4B_1_12 -->
-13. Asrama Brimob  <!-- STOP_K4B_1_13 -->
-14. Terminal Batubulan  <!-- STOP_K4B_1_14 -->
-15. Batubulan  <!-- STOP_K4B_1_15 -->
-16. Banjar Kalah Batubulan  <!-- STOP_K4B_1_16 -->
-17. Lapangan Chandra Muka  <!-- STOP_K4B_1_17 -->
-18. Celuk 1  <!-- STOP_K4B_1_18 -->
-19. RSU Ganesha  <!-- STOP_K4B_1_19 -->
-20. Kantor Perbekel Desa Celuk  <!-- STOP_K4B_1_20 -->
-21. Pasar Seni 3 Sukawati  <!-- STOP_K4B_1_21 -->
-22. Pasar Seni Sukawati  <!-- STOP_K4B_1_22 -->
-23. Peninjoan  <!-- STOP_K4B_1_23 -->
-24. Simpang Batuan  <!-- STOP_K4B_1_24 -->
-25. Sakah  <!-- STOP_K4B_1_25 -->
-26. Simpang Sakah  <!-- STOP_K4B_1_26 -->
-27. RS Ari Canti  <!-- STOP_K4B_1_27 -->
-28. Kantor Perbekel Desa Mas  <!-- STOP_K4B_1_28 -->
-29. RS Kenak Medika  <!-- STOP_K4B_1_29 -->
-30. Cok Rai Pudak  <!-- STOP_K4B_1_30 -->
-31. Kantor Perbekel Desa Peliatan  <!-- STOP_K4B_1_31 -->
-32. Pura Dalem Puri Peliatan Ubud  <!-- STOP_K4B_1_32 -->
-33. Hanoman 1  <!-- STOP_K4B_1_33 -->
-34. Hanoman 2  <!-- STOP_K4B_1_34 -->
-35. Hanoman 3  <!-- STOP_K4B_1_35 -->
-36. Sentral Parkir Monkey Forest  <!-- STOP_K4B_1_36 -->
+0. Terminal Ubung  <!-- STOP_K4B_0_00 -->
+1. Dharma Negara Alaya  <!-- STOP_K4B_0_01 -->
+2. Gatsu 1  <!-- STOP_K4B_0_02 -->
+3. Simpang Nangka  <!-- STOP_K4B_0_03 -->
+4. Living World Denpasar  <!-- STOP_K4B_0_04 -->
+5. Simpang Noja  <!-- STOP_K4B_0_05 -->
+6. Simpang Trengguli  <!-- STOP_K4B_0_06 -->
+7. Sekar Jepun  <!-- STOP_K4B_0_07 -->
+8. Gatsu Timur  <!-- STOP_K4B_0_08 -->
+9. Tohpati 1  <!-- STOP_K4B_0_09 -->
+10. Kertalangu  <!-- STOP_K4B_0_10 -->
+11. Titi Banda  <!-- STOP_K4B_0_11 -->
+12. Tohpati 2  <!-- STOP_K4B_0_12 -->
+13. Asrama Brimob  <!-- STOP_K4B_0_13 -->
+14. Terminal Batubulan  <!-- STOP_K4B_0_14 -->
+15. Batubulan  <!-- STOP_K4B_0_15 -->
+16. Banjar Kalah Batubulan  <!-- STOP_K4B_0_16 -->
+17. Lapangan Chandra Muka  <!-- STOP_K4B_0_17 -->
+18. Celuk 1  <!-- STOP_K4B_0_18 -->
+19. RSU Ganesha  <!-- STOP_K4B_0_19 -->
+20. Kantor Perbekel Desa Celuk  <!-- STOP_K4B_0_20 -->
+21. Pasar Seni 3 Sukawati  <!-- STOP_K4B_0_21 -->
+22. Pasar Seni Sukawati  <!-- STOP_K4B_0_22 -->
+23. Peninjoan  <!-- STOP_K4B_0_23 -->
+24. Simpang Batuan  <!-- STOP_K4B_0_24 -->
+25. Sakah  <!-- STOP_K4B_0_25 -->
+26. Simpang Sakah  <!-- STOP_K4B_0_26 -->
+27. RS Ari Canti  <!-- STOP_K4B_0_27 -->
+28. Kantor Perbekel Desa Mas  <!-- STOP_K4B_0_28 -->
+29. RS Kenak Medika  <!-- STOP_K4B_0_29 -->
+30. Mas  <!-- STOP_K4B_0_30 -->
+31. Kantor Perbekel Desa Peliatan  <!-- STOP_K4B_0_31 -->
+32. Pura Dalem Puri Peliatan Ubud  <!-- STOP_K4B_0_32 -->
+33. Hanoman 1  <!-- STOP_K4B_0_33 -->
+34. Hanoman 2  <!-- STOP_K4B_0_34 -->
+35. Hanoman 3  <!-- STOP_K4B_0_35 -->
+36. Sentral Parkir Monkey Forest  <!-- STOP_K4B_0_36 -->
 
-## direction 1 (source: k4b_MonkeyForest_bus_stops.gpkg, starts: Sentral Parkir Monkey Forest, gpkg direction attr: 0)
+## direction 1 (source: k4b_MonkeyForest_bus_stops.gpkg, starts: Sentral Parkir Monkey Forest, gpkg direction attr: 1)
 
-0. Sentral Parkir Monkey Forest  <!-- STOP_K4B_0_00 -->
-1. Monkey Forest 1  <!-- STOP_K4B_0_01 -->
-2. Lapangan Astina Ubud  <!-- STOP_K4B_0_02 -->
-3. Cok Sudarsana  <!-- STOP_K4B_0_03 -->
-4. Kantor Perbekel Desa Peliatan  <!-- STOP_K4B_0_04 -->
-5. Cok Rai Pudak  <!-- STOP_K4B_0_05 -->
-6. RS Kenak Medika  <!-- STOP_K4B_0_06 -->
-7. Kantor Perekel Desa Mas  <!-- STOP_K4B_0_07 -->
-8. RS Ari Canti  <!-- STOP_K4B_0_08 -->
-9. Simpang Sakah  <!-- STOP_K4B_0_09 -->
-10. Sakah  <!-- STOP_K4B_0_10 -->
-11. Simpang Batuan  <!-- STOP_K4B_0_11 -->
-12. Delod Tunon  <!-- STOP_K4B_0_12 -->
-13. Babakan Sukawati  <!-- STOP_K4B_0_13 -->
-14. Pura Pande Bang  <!-- STOP_K4B_0_14 -->
-15. Celuk 2  <!-- STOP_K4B_0_15 -->
-16. RSU Ganesha  <!-- STOP_K4B_0_16 -->
-17. Celuk 3  <!-- STOP_K4B_0_17 -->
-18. SMPN 5 Sukawati  <!-- STOP_K4B_0_18 -->
-19. Kantor Desa Batubulan  <!-- STOP_K4B_0_19 -->
-20. Batubulan  <!-- STOP_K4B_0_20 -->
-21. Terminal Batubulan  <!-- STOP_K4B_0_21 -->
-22. Tohpati 3  <!-- STOP_K4B_0_22 -->
-23. Tohpati 1  <!-- STOP_K4B_0_23 -->
-24. Kertalangu  <!-- STOP_K4B_0_24 -->
-25. Titi Banda  <!-- STOP_K4B_0_25 -->
-26. Tohpati 2  <!-- STOP_K4B_0_26 -->
-27. Gatsu Timur  <!-- STOP_K4B_0_27 -->
-28. Sekar Jepun  <!-- STOP_K4B_0_28 -->
-29. Simpang Trengguli  <!-- STOP_K4B_0_29 -->
-30. Living World Denpasar  <!-- STOP_K4B_0_30 -->
-31. Simpang Nangka  <!-- STOP_K4B_0_31 -->
-32. Gatsu 2  <!-- STOP_K4B_0_32 -->
-33. SMPN 10 Denpasar  <!-- STOP_K4B_0_33 -->
-34. Terminal Ubung  <!-- STOP_K4B_0_34 -->
+0. Sentral Parkir Monkey Forest  <!-- STOP_K4B_1_00 -->
+1. Monkey Forest 1  <!-- STOP_K4B_1_01 -->
+2. Lapangan Astina Ubud  <!-- STOP_K4B_1_02 -->
+3. Cok Sudarsana  <!-- STOP_K4B_1_03 -->
+4. Kantor Perbekel Desa Peliatan  <!-- STOP_K4B_1_04 -->
+5. Cok Rai Pudak  <!-- STOP_K4B_1_05 -->
+6. RS Kenak Medika  <!-- STOP_K4B_1_06 -->
+7. Kantor Perekel Desa Mas  <!-- STOP_K4B_1_07 -->
+8. RS Ari Canti  <!-- STOP_K4B_1_08 -->
+9. Simpang Sakah  <!-- STOP_K4B_1_09 -->
+10. Sakah  <!-- STOP_K4B_1_10 -->
+11. Simpang Batuan  <!-- STOP_K4B_1_11 -->
+12. Delod Tunon  <!-- STOP_K4B_1_12 -->
+13. Babakan Sukawati  <!-- STOP_K4B_1_13 -->
+14. Pura Pande Bang  <!-- STOP_K4B_1_14 -->
+15. Celuk 2  <!-- STOP_K4B_1_15 -->
+16. RSU Ganesha  <!-- STOP_K4B_1_16 -->
+17. Celuk 3  <!-- STOP_K4B_1_17 -->
+18. SMPN 5 Sukawati  <!-- STOP_K4B_1_18 -->
+19. Kantor Desa Batubulan  <!-- STOP_K4B_1_19 -->
+20. Batubulan  <!-- STOP_K4B_1_20 -->
+21. Terminal Batubulan  <!-- STOP_K4B_1_21 -->
+22. Tohpati 3  <!-- STOP_K4B_1_22 -->
+23. Tohpati 1  <!-- STOP_K4B_1_23 -->
+24. Kertalangu  <!-- STOP_K4B_1_24 -->
+25. Titi Banda  <!-- STOP_K4B_1_25 -->
+26. Tohpati 2  <!-- STOP_K4B_1_26 -->
+27. Gatsu Timur  <!-- STOP_K4B_1_27 -->
+28. Sekar Jepun  <!-- STOP_K4B_1_28 -->
+29. Simpang Trengguli  <!-- STOP_K4B_1_29 -->
+30. Living World Denpasar  <!-- STOP_K4B_1_30 -->
+31. Simpang Nangka  <!-- STOP_K4B_1_31 -->
+32. Gatsu 2  <!-- STOP_K4B_1_32 -->
+33. SMPN 10 Denpasar  <!-- STOP_K4B_1_33 -->
+34. Terminal Ubung  <!-- STOP_K4B_1_34 -->
 
 
 # K5B
