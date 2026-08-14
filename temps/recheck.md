@@ -166,65 +166,65 @@
 
 # K3B
 
-## direction 0 (source: k3b_TerminalUbung_bus_stops.gpkg, starts: Terminal Ubung, gpkg direction attr: 1)
+## direction 0 (source: k3b_TerminalUbung_bus_stops.gpkg, starts: Terminal Ubung, gpkg direction attr: 0)
 
-0. Terminal Ubung  <!-- STOP_K3B_1_00 -->
-1. Gatsu Barat 1  <!-- STOP_K3B_1_01 -->
-2. Gatsu Barat 3  <!-- STOP_K3B_1_02 -->
-3. Gatsu Barat 5  <!-- STOP_K3B_1_03 -->
-4. Gatsu Barat 7  <!-- STOP_K3B_1_04 -->
-5. Gatsu Barat 9  <!-- STOP_K3B_1_05 -->
-6. Gatsu Barat 11  <!-- STOP_K3B_1_06 -->
-7. Perum Dalung Permai  <!-- STOP_K3B_1_07 -->
-8. Pos Pengamanan Terpadu Dalung  <!-- STOP_K3B_1_08 -->
-9. Gatsu Barat 12  <!-- STOP_K3B_1_09 -->
-10. Gatsu Barat 10  <!-- STOP_K3B_1_10 -->
-11. Gatsu Barat 8  <!-- STOP_K3B_1_11 -->
-12. Gatsu Barat 6  <!-- STOP_K3B_1_12 -->
-13. Gatsu Barat 4  <!-- STOP_K3B_1_13 -->
-14. Gatsu Barat 2  <!-- STOP_K3B_1_14 -->
-15. RSU Manuaba  <!-- STOP_K3B_1_15 -->
-16. Sutomo  <!-- STOP_K3B_1_16 -->
-17. Puri Agung Jrokuta  <!-- STOP_K3B_1_17 -->
-18. Kawasan Heritage Gajah Mada  <!-- STOP_K3B_1_18 -->
-19. Kantor Walikota Denpasar  <!-- STOP_K3B_1_19 -->
-20. Surapati  <!-- STOP_K3B_1_20 -->
-21. RSAD Udayana  <!-- STOP_K3B_1_21 -->
-22. Simpang Sudirman  <!-- STOP_K3B_1_22 -->
-23. Bank Indonesia Renon  <!-- STOP_K3B_1_23 -->
-24. Dishub Prov. Bali  <!-- STOP_K3B_1_24 -->
-25. Samsat Renon  <!-- STOP_K3B_1_25 -->
-26. Dinas Pariwisata Bali  <!-- STOP_K3B_1_26 -->
-27. Kantor Gubernur Bali  <!-- STOP_K3B_1_27 -->
-28. Dr. Muwardi  <!-- STOP_K3B_1_28 -->
-29. Simpang Renon 1  <!-- STOP_K3B_1_29 -->
-30. Simpang Renon 2  <!-- STOP_K3B_1_30 -->
-31. SDN 2 Sanur  <!-- STOP_K3B_1_31 -->
-32. Simpang Sanur Hang Tuah  <!-- STOP_K3B_1_32 -->
-33. Pantai Sindhu (Timur)  <!-- STOP_K3B_1_33 -->
-34. Icon Bali Mall  <!-- STOP_K3B_1_34 -->
+0. Terminal Ubung  <!-- STOP_K3B_0_00 -->
+1. Gatsu Barat 1  <!-- STOP_K3B_0_01 -->
+2. Gatsu Barat 3  <!-- STOP_K3B_0_02 -->
+3. Gatsu Barat 5  <!-- STOP_K3B_0_03 -->
+4. Gatsu Barat 7  <!-- STOP_K3B_0_04 -->
+5. Gatsu Barat 9  <!-- STOP_K3B_0_05 -->
+6. Gatsu Barat 11  <!-- STOP_K3B_0_06 -->
+7. Perum Dalung Permai  <!-- STOP_K3B_0_07 -->
+8. Pos Pengamanan Terpadu Dalung  <!-- STOP_K3B_0_08 -->
+9. Gatsu Barat 12  <!-- STOP_K3B_0_09 -->
+10. Gatsu Barat 10  <!-- STOP_K3B_0_10 -->
+11. Gatsu Barat 8  <!-- STOP_K3B_0_11 -->
+12. Gatsu Barat 6  <!-- STOP_K3B_0_12 -->
+13. Gatsu Barat 4  <!-- STOP_K3B_0_13 -->
+14. Gatsu Barat 2  <!-- STOP_K3B_0_14 -->
+15. RSU Manuaba  <!-- STOP_K3B_0_15 -->
+16. Sutomo  <!-- STOP_K3B_0_16 -->
+17. Puri Agung Jrokuta  <!-- STOP_K3B_0_17 -->
+18. Kawasan Heritage Gajah Mada  <!-- STOP_K3B_0_18 -->
+19. Kantor Walikota Denpasar  <!-- STOP_K3B_0_19 -->
+20. Surapati  <!-- STOP_K3B_0_20 -->
+21. RSAD Udayana  <!-- STOP_K3B_0_21 -->
+22. Simpang Sudirman  <!-- STOP_K3B_0_22 -->
+23. Bank Indonesia Renon  <!-- STOP_K3B_0_23 -->
+24. Dishub Prov. Bali  <!-- STOP_K3B_0_24 -->
+25. Samsat Renon  <!-- STOP_K3B_0_25 -->
+26. Dinas Pariwisata Bali  <!-- STOP_K3B_0_26 -->
+27. Kantor Gubernur Bali  <!-- STOP_K3B_0_27 -->
+28. Dr. Muwardi  <!-- STOP_K3B_0_28 -->
+29. Simpang Renon 1  <!-- STOP_K3B_0_29 -->
+30. Simpang Renon 2  <!-- STOP_K3B_0_30 -->
+31. SDN 2 Sanur  <!-- STOP_K3B_0_31 -->
+32. Simpang Sanur Hang Tuah  <!-- STOP_K3B_0_32 -->
+33. Pantai Sindhu (Timur)  <!-- STOP_K3B_0_33 -->
+34. Icon Bali Mall  <!-- STOP_K3B_0_34 -->
 
-## direction 1 (source: k3b_Icon_bus_stops.gpkg, starts: Icon Bali Mall, gpkg direction attr: 0)
+## direction 1 (source: k3b_Icon_bus_stops.gpkg, starts: Icon Bali Mall, gpkg direction attr: 1)
 
-0. Icon Bali Mall  <!-- STOP_K3B_0_00 -->
-1. Pantai Sindhu (Barat)  <!-- STOP_K3B_0_01 -->
-2. Simpang Sanur Hang Tuah  <!-- STOP_K3B_0_02 -->
-3. Hang Tuah  <!-- STOP_K3B_0_03 -->
-4. Simpang Renon 3  <!-- STOP_K3B_0_04 -->
-5. Simpang Renon 4  <!-- STOP_K3B_0_05 -->
-6. Kantor Gubernur Bali  <!-- STOP_K3B_0_06 -->
-7. Dinas Pariwisata Bali  <!-- STOP_K3B_0_07 -->
-8. Kejati Bali  <!-- STOP_K3B_0_08 -->
-9. Kumham  <!-- STOP_K3B_0_09 -->
-10. Disdikpora Provinsi Bali  <!-- STOP_K3B_0_10 -->
-11. Dewi Sartika  <!-- STOP_K3B_0_11 -->
-12. Diponegoro 1  <!-- STOP_K3B_0_12 -->
-13. Diponegoro 2  <!-- STOP_K3B_0_13 -->
-14. Hasanuddin  <!-- STOP_K3B_0_14 -->
-15. Thamrin  <!-- STOP_K3B_0_15 -->
-16. Puri Kawan Jrokuta  <!-- STOP_K3B_0_16 -->
-17. RSU Manuaba  <!-- STOP_K3B_0_17 -->
-18. Terminal Ubung  <!-- STOP_K3B_0_18 -->
+0. Icon Bali Mall  <!-- STOP_K3B_1_00 -->
+1. Pantai Sindhu (Barat)  <!-- STOP_K3B_1_01 -->
+2. Simpang Sanur Hang Tuah  <!-- STOP_K3B_1_02 -->
+3. Hang Tuah  <!-- STOP_K3B_1_03 -->
+4. Simpang Renon 3  <!-- STOP_K3B_1_04 -->
+5. Simpang Renon 4  <!-- STOP_K3B_1_05 -->
+6. Kantor Gubernur Bali  <!-- STOP_K3B_1_06 -->
+7. Dinas Pariwisata Bali  <!-- STOP_K3B_1_07 -->
+8. Kejati Bali  <!-- STOP_K3B_1_08 -->
+9. Kumham  <!-- STOP_K3B_1_09 -->
+10. Disdikpora Provinsi Bali  <!-- STOP_K3B_1_10 -->
+11. Dewi Sartika  <!-- STOP_K3B_1_11 -->
+12. Diponegoro 1  <!-- STOP_K3B_1_12 -->
+13. Diponegoro 2  <!-- STOP_K3B_1_13 -->
+14. Hasanuddin  <!-- STOP_K3B_1_14 -->
+15. Thamrin  <!-- STOP_K3B_1_15 -->
+16. Puri Kawan Jrokuta  <!-- STOP_K3B_1_16 -->
+17. RSU Manuaba  <!-- STOP_K3B_1_17 -->
+18. Terminal Ubung  <!-- STOP_K3B_1_18 -->
 
 
 # K4B
