@@ -15,15 +15,12 @@
 # insert_route_stop.sql
 
 import json
-import re
 import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC_DIR = ROOT / "routes_and_stops"
 OUT_DIR = ROOT / "data" / "sql"
-
-SEQUENCE_RE = re.compile(r"_(\d+)$")
 
 
 def load_layer(gpkg_path, layer_name):
@@ -62,9 +59,10 @@ def find_pairs():
     return pairs
 
 
-def stop_sequence(stop_id, fallback):
-    match = SEQUENCE_RE.search(stop_id)
-    return int(match.group(1)) if match else fallback
+def parse_stop_id(stop_id):
+    # "STOP_<ref>_<direction>_<sequence>", e.g. "STOP_K1B_0_00"
+    _, ref, direction, sequence = stop_id.split("_")
+    return ref, direction, int(sequence)
 
 
 def main():
@@ -83,34 +81,54 @@ def main():
             )
 
         route_props = route_features[0]["properties"]
-        route_id = route_props["route_id"]
         coords = route_features[0]["geometry"]["coordinates"]
         shape = json.dumps([[lat, lon] for lon, lat in coords])
 
+        stop_features = load_layer(stops_file, "bus_stops")
+
+        if not stop_features:
+            raise ValueError(f"{stops_file.name} has no stop features")
+
+        # routeId comes from each stop's own "STOP_<ref>_<direction>_<seq>" id
+        # (e.g. STOP_K1B_0_xx -> K1B_0, STOP_K1B_1_xx -> K1B_1) rather than
+        # the source route_id attribute, and must agree across the whole file.
+        stop_route_keys = {
+            f"{ref}-{direction}"
+            for ref, direction, _ in (
+                parse_stop_id(feature["properties"]["stop_id"])
+                for feature in stop_features
+            )
+        }
+
+        if len(stop_route_keys) != 1:
+            raise ValueError(
+                f"{stops_file.name} stop ids imply multiple routes: {stop_route_keys}"
+            )
+
+        route_id = next(iter(stop_route_keys))
+
         route_lines.append(
-            "INSERT INTO bus_routes (id, ref, name, direction, color, shape) "
-            f"VALUES ({sql_str(route_id)}, {sql_str(route_props['ref'])}, "
+            "INSERT INTO BusRoute (id, ref, name, direction, color, shape) "
+            f"VALUES ({sql_str(route_id)}, {sql_str(route_id)}, "
             f"{sql_str(route_props['name'])}, {sql_str(route_props['direction_id'])}, "
             f"{sql_str(route_props['colour'])}, {sql_str(shape)});"
         )
 
-        stop_features = load_layer(stops_file, "bus_stops")
-
-        for index, feature in enumerate(stop_features):
+        for feature in stop_features:
             props = feature["properties"]
             stop_id = props["stop_id"]
             lon, lat = feature["geometry"]["coordinates"]
             name = props.get("name") or props.get("name:en")
 
             stop_lines.append(
-                "INSERT INTO bus_stops (id, name, lat, lng) "
+                "INSERT INTO BusStop (id, name, lat, lng) "
                 f"VALUES ({sql_str(stop_id)}, {sql_str(name)}, {lat}, {lon});"
             )
 
-            sequence = stop_sequence(stop_id, index)
+            _, _, sequence = parse_stop_id(stop_id)
 
             route_stop_lines.append(
-                "INSERT INTO route_stop (id, routeId, stopId, sequence) "
+                "INSERT INTO RouteStop (id, routeId, stopId, sequence) "
                 f"VALUES ({sql_str(f'{route_id}_{sequence:02d}')}, {sql_str(route_id)}, "
                 f"{sql_str(stop_id)}, {sequence});"
             )
