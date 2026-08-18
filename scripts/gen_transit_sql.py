@@ -16,6 +16,7 @@
 
 import json
 import subprocess
+import uuid
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -117,12 +118,14 @@ def main():
         for feature in stop_features:
             props = feature["properties"]
             stop_id = props["stop_id"]
+            bus_stop_id = str(uuid.uuid4())
             lon, lat = feature["geometry"]["coordinates"]
             name = props.get("name") or props.get("name:en")
 
             stop_lines.append(
-                "INSERT INTO BusStop (id, name, lat, lng) "
-                f"VALUES ({sql_str(stop_id)}, {sql_str(name)}, {lat}, {lon});"
+                "INSERT INTO BusStop (id, stopId, name, lat, lng) "
+                f"VALUES ({sql_str(bus_stop_id)}, {sql_str(stop_id)}, "
+                f"{sql_str(name)}, {lat}, {lon});"
             )
 
             _, _, sequence = parse_stop_id(stop_id)
@@ -130,7 +133,7 @@ def main():
             route_stop_lines.append(
                 "INSERT INTO RouteStop (id, routeId, stopId, sequence) "
                 f"VALUES ({sql_str(f'{route_id}_{sequence:02d}')}, {sql_str(route_id)}, "
-                f"{sql_str(stop_id)}, {sequence});"
+                f"{sql_str(bus_stop_id)}, {sequence});"
             )
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
