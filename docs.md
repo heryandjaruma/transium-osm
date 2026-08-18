@@ -217,7 +217,7 @@ ogr2ogr -f GeoJSON build/transit/bus_stops.geojson \
 
 ```shell
 tippecanoe \
-  -o build/bali_basemap.pmtiles \
+  -o build/tiles/bali-basemap.pmtiles \
   -Z7 \
   -z16 \
   --force \
@@ -236,7 +236,7 @@ tippecanoe \
 
 ```shell
 tippecanoe \
-  -o build/bali_transit.pmtiles \
+  -o build/tiles/bali-transit.pmtiles \
   -Z8 \
   -z17 \
   --force \
